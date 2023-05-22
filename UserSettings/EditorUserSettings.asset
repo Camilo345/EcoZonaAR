@@ -6,19 +6,37 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 5701060254035f59085f0e21142159444f4e4d737a7b24617f2a4e6be4b2636d
-      flags: 0
-    RecentlyUsedSceneGuid-1:
       value: 50000505070c59025f595b7342225e44104f497d7c2d743675781b30e4e56068
       flags: 0
-    RecentlyUsedSceneGuid-2:
-      value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
-      flags: 0
-    RecentlyUsedSceneGuid-3:
+    RecentlyUsedSceneGuid-1:
       value: 5604015e07065a5a0f0c0a7a117a0d44464e4b79292e276675284f67b5e26561
       flags: 0
-    RecentlyUsedSceneGuid-4:
+    RecentlyUsedSceneGuid-2:
       value: 5a08575f5207595a0f5d59741173094444164f7d7d2a23317c7a4465bbe1646d
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 010700515400085f090a5476417b0d44474f4a2928797264782b4c6ab0b13168
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 020306035c03080f58565b7644735d44414e412b7f2b73687a2b1f31b0b1363a
+      flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 51050305070d580a0b5b582346765944474f497a7d7a76337b79456ab5e3326d
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 5701060254035f59085f0e21142159444f4e4d737a7b24617f2a4e6be4b2636d
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
+      flags: 0
+    UnityEditor.ShaderGraph.Blackboard:
+      value: 18135939215a0a5004000b0e15254b524c030a3f2964643d120d1230e9e93a3fd6e826abbd2e2d293c4ead313b08042de6030a0afa240c0d020be94c4ba75e435d8715fa32c70d15d11612dacc11fee5d3c5d1fe9ab1bf968e93e2ffcbc3e7e2f0b3ffe0e8b0be9af8ffaeffff8e85dd8390e3949c8899daa7
+      flags: 0
+    UnityEditor.ShaderGraph.FloatingWindowsLayout2:
+      value: 181344140043005e1a220d3b1f364b524c0c5a27130c293326201334cee5322ca0bd30e8eb293a707b0fd0180b3d0a36fc0d3d04e649500d1002ee0b5dbd1d2c27c00ad113cb1e10e41f1addc80993b98d9884a69ae6d8f0d1cda9e8fbfefaf9f9dea3fdb9ade882f0f7b0e1e380cafbf2c3adc18e9cd285a2908b82ec879c84808fdc8e8ed0818980dbf8daf7dce5bdd1fbf5c4c1ebcef2c4c7c4e537eafd39303f3fefa1a5ab
+      flags: 0
+    UnityEditor.ShaderGraph.InspectorWindow:
+      value: 18135939215a0a5004000b0e15254b524c1119263f2d6a722016393ce1eb3d36e5d339f9a5602b2e2c07a37e0901373ae01e0008f707250d171df81a53a5455d449c419c43904b4b9f484e9f9d4485af97dbebc2d7f9eec2d1d1b4f3f8dfe8fee6f4b1b9f0f0b297f3f6a7e9f8959e96989cef93998a8bca85e1d8c9bb9188c89bcec78c8ad7889589c1e294e0caf5f3c6eff5cfccfcc1facbc6c5e635e0fe7d7b
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650

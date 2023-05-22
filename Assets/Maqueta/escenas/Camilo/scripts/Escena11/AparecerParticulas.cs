@@ -22,7 +22,7 @@ public class AparecerParticulas : MonoBehaviour
     public void emitir()
     {
         gota.SetActive(false);
-        particulas.Play();
+        particulas.gameObject.SetActive(true);
 
     }
 

@@ -14,6 +14,6 @@ public class helice : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(velocidad * Vector3.up * Time.deltaTime, Space.World);
+        transform.Rotate(velocidad * Vector3.up * Time.deltaTime, Space.Self);
     }
 }

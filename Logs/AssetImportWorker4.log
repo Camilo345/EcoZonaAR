@@ -1,0 +1,420 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ja' Physical Memory: 16088 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Daniel/Documents/GitHub/EcoZonaAR
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+52595
+Successfully changed project path to: C:/Users/Daniel/Documents/GitHub/EcoZonaAR
+C:/Users/Daniel/Documents/GitHub/EcoZonaAR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 112.52 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 2.90 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Daniel/Documents/GitHub/EcoZonaAR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004865 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 107.88 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.633 seconds
+Domain Reload Profiling:
+	ReloadAssembly (633ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (471ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (95ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009427 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 133.53 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.373 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4374ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (4054ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1045ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (2811ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (134ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (505ms)
+				ProcessInitializeOnLoadMethodAttributes (2035ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 5804 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (0.7 MB). Loaded Objects now: 6563.
+Memory consumption went from 255.0 MB to 254.3 MB.
+Total: 5.386700 ms (FindLiveObjects: 0.366200 ms CreateObjectMapping: 0.590100 ms MarkObjects: 4.059100 ms  DeleteObjects: 0.370300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 101234.161128 seconds.
+  path: Assets/Menu
+  artifactKey: Guid(d49d314681ab6bc478919d0117ce6bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu using Guid(d49d314681ab6bc478919d0117ce6bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7baf04e2e43bf4c3da9fa5e8be01c5') in 0.024622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.816550 seconds.
+  path: Assets/Maqueta/AR_Agua
+  artifactKey: Guid(8339cc1e59562e34f93833f796c5ff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua using Guid(8339cc1e59562e34f93833f796c5ff63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f609e415892ec2d081d38e03580657') in 0.011411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.001581 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos
+  artifactKey: Guid(762e864424f18d745b0e7fed2b7a93cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos using Guid(762e864424f18d745b0e7fed2b7a93cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b029bb745024e2ea7ce59e76c5ac93b4') in 0.020642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.057506 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip3
+  artifactKey: Guid(03b3211615b6ccc4c9cb0226230dc717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip3 using Guid(03b3211615b6ccc4c9cb0226230dc717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc86a23a7f8b91b26bd68ca7c8be0566') in 0.008469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.164076 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip2
+  artifactKey: Guid(0f669e0413a380d4d86f1d0b4dd38f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip2 using Guid(0f669e0413a380d4d86f1d0b4dd38f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bedd33c0eadde5f1997992d1a72231') in 0.011347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.307663 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip3/Cascada.fbx
+  artifactKey: Guid(114b57b4df8349f4094ee32ed2bbea21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip3/Cascada.fbx using Guid(114b57b4df8349f4094ee32ed2bbea21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955e9e039bb9ec89e818dd1b367a0475') in 0.662077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.860554 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip3/Cascada.fbx
+  artifactKey: Guid(114b57b4df8349f4094ee32ed2bbea21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip3/Cascada.fbx using Guid(114b57b4df8349f4094ee32ed2bbea21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9fd8c27b3a856e7baf4823bdb70a4a') in 0.036827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.482580 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip3/Cascada.fbx
+  artifactKey: Guid(114b57b4df8349f4094ee32ed2bbea21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip3/Cascada.fbx using Guid(114b57b4df8349f4094ee32ed2bbea21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9d86b208bfdef7e610df94fe19ad05') in 0.038866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.406263 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4
+  artifactKey: Guid(7601b029059e0b146bb446234b3c0c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4 using Guid(7601b029059e0b146bb446234b3c0c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952e4539c23b05f486747529d24b6e87') in 0.021513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/maquetaRio.fbx
+  artifactKey: Guid(d9cdc6154f70237419b717f427e4588b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/maquetaRio.fbx using Guid(d9cdc6154f70237419b717f427e4588b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a08f61cf8f0a45926a83063876a27c') in 0.024639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 993.448644 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/OBJ_OC56_MelaleucaAlternifolia_1.obj
+  artifactKey: Guid(62e65bd3655007b4487241038d6eaf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/OBJ_OC56_MelaleucaAlternifolia_1.obj using Guid(62e65bd3655007b4487241038d6eaf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed270e3e1bfcb74e7e9cbf3ac3697e1') in 0.267712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.482942 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/OBJ_OC56_MelaleucaAlternifolia_3.obj
+  artifactKey: Guid(7a262ab85699d704aab3896854df6e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/OBJ_OC56_MelaleucaAlternifolia_3.obj using Guid(7a262ab85699d704aab3896854df6e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190fdb537b29ee57cd93fab9bd76f8b5') in 0.078042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 310.589983 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/OC56_Bark03_dif_su.png
+  artifactKey: Guid(6556927301e57cf45a0c2b1523aa7239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/OC56_Bark03_dif_su.png using Guid(6556927301e57cf45a0c2b1523aa7239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c6a582b690d07160e45d03f0140aa9') in 0.156697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.692287 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/OC56_Branch01_dif_su.png
+  artifactKey: Guid(fb81d966d29b88043bbd9f90f0964f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/OC56_Branch01_dif_su.png using Guid(fb81d966d29b88043bbd9f90f0964f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e13bdb5b16703428c271ca589f24f54') in 0.036169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.307822 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/OC56_Leaf01Back_dif_su.png
+  artifactKey: Guid(30b642b98bc45b044a4741eeae854852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/OC56_Leaf01Back_dif_su.png using Guid(30b642b98bc45b044a4741eeae854852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50558d0253ddccb5cd0849101fb9981a') in 0.022704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 676.102202 seconds.
+  path: Assets/NatureManufacture Assets
+  artifactKey: Guid(7c31173d8b2c5a44caa13d916c73db7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureManufacture Assets using Guid(7c31173d8b2c5a44caa13d916c73db7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0bf2e893dad3d5dd1e447923facecc') in 0.009061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.296859 seconds.
+  path: Assets/Mural
+  artifactKey: Guid(7ab08a3b4bc455747b5c7545e188ccdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural using Guid(7ab08a3b4bc455747b5c7545e188ccdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c5fc27e5b7dc63e2def5476bf94813') in 0.024302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.815437 seconds.
+  path: Assets/Mural/laxer tree pkg
+  artifactKey: Guid(cd65231aaebf8a549872ad2f10cee818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/laxer tree pkg using Guid(cd65231aaebf8a549872ad2f10cee818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f558f7f3cbbebdbdfd901e890a5f0e99') in 0.017925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.899757 seconds.
+  path: Assets/Mural/laxer tree pkg/Models
+  artifactKey: Guid(ffcfd6e41810a574aafaf603495fa77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/laxer tree pkg/Models using Guid(ffcfd6e41810a574aafaf603495fa77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16908d5335422efeeb41282cbddfe336') in 0.012394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019437 seconds.
+  path: Assets/Mural/laxer tree pkg/Models/baum hd fbx.fbx
+  artifactKey: Guid(9b27b908e66bddb42940797bc06df908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/laxer tree pkg/Models/baum hd fbx.fbx using Guid(9b27b908e66bddb42940797bc06df908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f82b20e75f2601fb29e6fe056ea0ec') in 0.172052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mural/laxer tree pkg/Models/baum hd pine fbx.fbx
+  artifactKey: Guid(7163db7426b13a345b09fa28a500a5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/laxer tree pkg/Models/baum hd pine fbx.fbx using Guid(7163db7426b13a345b09fa28a500a5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70da49057316e0ddb375e39320530ee5') in 0.064283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.318286 seconds.
+  path: Assets/Mural/laxer tree pkg/Mobile
+  artifactKey: Guid(b0340be325f4c754680533e87518c606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/laxer tree pkg/Mobile using Guid(b0340be325f4c754680533e87518c606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af2366e43080423ca3d7202ff3cbd3f') in 0.023545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042311 seconds.
+  path: Assets/Mural/laxer tree pkg/Mobile/baum ld0 mobile.prefab
+  artifactKey: Guid(d7ebb2b5789a2be45b7bd26b3b9d50aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/laxer tree pkg/Mobile/baum ld0 mobile.prefab using Guid(d7ebb2b5789a2be45b7bd26b3b9d50aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2444c4080bf67d082e6746d5517299') in 2.671996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mural/laxer tree pkg/Mobile/baum ld2 mobile.prefab
+  artifactKey: Guid(78fdf95c4c2d7384a8957ee310d2b067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/laxer tree pkg/Mobile/baum ld2 mobile.prefab using Guid(78fdf95c4c2d7384a8957ee310d2b067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbae1db48a94df0ef3f1c8d4984aa47') in 0.022776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.741505 seconds.
+  path: Assets/Maqueta
+  artifactKey: Guid(d42a28344eb518e4b8009cfe7710651f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta using Guid(d42a28344eb518e4b8009cfe7710651f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d8876fd529a28457b33bda6af61dc7') in 0.020730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.497061 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/baum ld0 mobile.prefab
+  artifactKey: Guid(c1d2b256331939a4593ca8da0ab96e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/baum ld0 mobile.prefab using Guid(c1d2b256331939a4593ca8da0ab96e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5dd2e5d6c24801ad57ae34bb765aa8') in 0.022648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/baum ld2 mobile.prefab
+  artifactKey: Guid(8b435505f5ada9548b1ef3763156f9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/baum ld2 mobile.prefab using Guid(8b435505f5ada9548b1ef3763156f9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0718fc6a021848877686300fa338d3') in 0.021007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.189537 seconds.
+  path: Assets/Mural/AR_/ImagenMural.jpeg
+  artifactKey: Guid(ac47b939c8be3a14a8079f4b4ce0976a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/AR_/ImagenMural.jpeg using Guid(ac47b939c8be3a14a8079f4b4ce0976a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267e46bb7f0e8a6692541da0a5befa03') in 0.021165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.600504 seconds.
+  path: Assets/Scenes/ImageTracking.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ImageTracking.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca41fbd98c00f41d22a50789af8ffbf') in 0.009580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 387.720564 seconds.
+  path: Assets/Scenes/ImageTracking.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ImageTracking.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060beaf273e0bd9437c4547e851a5740') in 0.010347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.407115 seconds.
+  path: Assets/Scenes/LlanoAR.unity
+  artifactKey: Guid(5558b33abbf8a9240933efa68a247b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LlanoAR.unity using Guid(5558b33abbf8a9240933efa68a247b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddae95258e01cc8494837d99dd2d88d') in 0.021122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.075442 seconds.
+  path: Assets/Mural/AR_
+  artifactKey: Guid(f48000aabb87dc546a1992c09561e3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/AR_ using Guid(f48000aabb87dc546a1992c09561e3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6013cd4bae3aee6fd7b22b5e19a010a') in 0.014136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.143629 seconds.
+  path: Assets/Mural/AR_/Plane.mat
+  artifactKey: Guid(2eb1e835089be2c44a16e2bf6e902a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/AR_/Plane.mat using Guid(2eb1e835089be2c44a16e2bf6e902a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3891ae4a1b20562185a3949b4f6c0adf') in 0.027209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.439157 seconds.
+  path: Assets/Mural/laxer tree pkg/Models/Materials/ast3 lw.mat
+  artifactKey: Guid(a05189f4f1fcfd64dad1a2d9c28d6aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/laxer tree pkg/Models/Materials/ast3 lw.mat using Guid(a05189f4f1fcfd64dad1a2d9c28d6aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7d44e62acedb001c1fc8786a64e822') in 0.041768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Mural/laxer tree pkg/Models/Materials/bark wh.mat
+  artifactKey: Guid(ec234b86cf157d94e9dd6a5ee9b31eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/laxer tree pkg/Models/Materials/bark wh.mat using Guid(ec234b86cf157d94e9dd6a5ee9b31eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b05bb3b852361ccd744c130f5f02d63') in 0.024374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mural/laxer tree pkg/Models/Materials/ast5.mat
+  artifactKey: Guid(f46c6bff831cfd14bb53bc3819f0f0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/laxer tree pkg/Models/Materials/ast5.mat using Guid(f46c6bff831cfd14bb53bc3819f0f0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df7222504cdb292c71c8e9ac17a6847') in 0.019617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mural/laxer tree pkg/Models/Materials/ast4 lw.mat
+  artifactKey: Guid(76a056ccc1b93e849bc3661d612a95ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/laxer tree pkg/Models/Materials/ast4 lw.mat using Guid(76a056ccc1b93e849bc3661d612a95ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc626cebce2f9fee013fcfedaf486875') in 0.017794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Mural/laxer tree pkg/Models/Materials/bark pine wh lw.mat
+  artifactKey: Guid(bd89ecb7585e33f41b8990012887c72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/laxer tree pkg/Models/Materials/bark pine wh lw.mat using Guid(bd89ecb7585e33f41b8990012887c72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4160fa1fa4c6f99c2cff6224bbc863c') in 0.019297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Mural/laxer tree pkg/Models/Materials/bark pine wh.mat
+  artifactKey: Guid(63489f5a7b5c30d4c990f5949b6fb6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/laxer tree pkg/Models/Materials/bark pine wh.mat using Guid(63489f5a7b5c30d4c990f5949b6fb6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe69e95f497bf31fdbf641af59401517') in 0.018065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Mural/laxer tree pkg/Models/Materials/bark wh lw.mat
+  artifactKey: Guid(62c004aeef1076648a99aaa35156912b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/laxer tree pkg/Models/Materials/bark wh lw.mat using Guid(62c004aeef1076648a99aaa35156912b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da8319938eed91d08a365289d8655ef') in 0.019579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.288508 seconds.
+  path: Assets/Mural/laxer tree pkg/Models/Materials/ast3 lw 1.mat
+  artifactKey: Guid(cf9f98538d6058142bb421d310564885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/laxer tree pkg/Models/Materials/ast3 lw 1.mat using Guid(cf9f98538d6058142bb421d310564885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd05d70dae5b3aa77c9c0c2f3313545') in 0.022528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 312.594466 seconds.
+  path: Assets/Mural/laxer tree pkg/Models/Materials/ast3 lw 1.mat
+  artifactKey: Guid(cf9f98538d6058142bb421d310564885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/laxer tree pkg/Models/Materials/ast3 lw 1.mat using Guid(cf9f98538d6058142bb421d310564885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4919f7d2fcd0c7795ab971289e168fe') in 0.024036 seconds 

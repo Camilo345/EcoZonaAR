@@ -15,7 +15,7 @@ C:/Users/Daniel/Documents/GitHub/EcoZonaAR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52595
+52311
 Successfully changed project path to: C:/Users/Daniel/Documents/GitHub/EcoZonaAR
 C:/Users/Daniel/Documents/GitHub/EcoZonaAR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/Daniel/Documents/GitHub/EcoZonaAR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 387.42 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 3.22 ms.
+Refreshing native plugins compatible for Editor in 123.07 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 3.27 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Daniel/Documents/GitHub/EcoZonaAR/Assets
@@ -63,49 +63,334 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.765146 seconds.
+Registered in 0.004795 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 132.59 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 120.10 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 11.549 seconds
+- Completed reload, in  0.721 seconds
 Domain Reload Profiling:
-	ReloadAssembly (11550ms)
-		BeginReloadAssembly (7682ms)
+	ReloadAssembly (721ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (2727ms)
-			LoadAssemblies (7687ms)
+		EndReloadAssembly (533ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (2034ms)
+			SetupTypeCache (113ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (594ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (342ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (301ms)
+				InitializePlatformSupportModulesInManaged (69ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (133ms)
+				RefreshPlugins (120ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (104ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014301 seconds.
-Android Extension - Scanning For ADB Devices 4479 ms
+Registered in 0.008925 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 111.16 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.500 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1501ms)
+		BeginReloadAssembly (226ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (134ms)
+		EndReloadAssembly (1164ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (287ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (652ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (328ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 5804 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (0.7 MB). Loaded Objects now: 6563.
+Memory consumption went from 255.1 MB to 254.4 MB.
+Total: 4.393800 ms (FindLiveObjects: 0.419400 ms CreateObjectMapping: 0.266100 ms MarkObjects: 3.349500 ms  DeleteObjects: 0.355500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3606.580287 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Fence.png
+  artifactKey: Guid(104ea548625d9ba40a8c48e217ab42d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Fence.png using Guid(104ea548625d9ba40a8c48e217ab42d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da9c95973897b50be1f1ff544a677e2') in 0.145214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Road_Diffuse.png
+  artifactKey: Guid(76f0668a86278714882deb346335447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Road_Diffuse.png using Guid(76f0668a86278714882deb346335447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb2d210e75a2c4638fde76871bf650a') in 0.020540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Water_Filtration_Square_Specular.png
+  artifactKey: Guid(a68d57ad76caf034c954abef54fe1bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Water_Filtration_Square_Specular.png using Guid(a68d57ad76caf034c954abef54fe1bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ce9eccdf66074f2206c1144dac7be8') in 0.016522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Grass_Diffuse.png
+  artifactKey: Guid(8379095f5bd297a41afd2caf16b4cb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Grass_Diffuse.png using Guid(8379095f5bd297a41afd2caf16b4cb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36905e0213b26ca43652bdfeb68efd1') in 0.020141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Grass_Normal.png
+  artifactKey: Guid(180fd100bfde98c48b9f78f43d356c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Grass_Normal.png using Guid(180fd100bfde98c48b9f78f43d356c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247f8f7f2effb14988243183059c701a') in 0.017673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Pipe_Diffuse.png
+  artifactKey: Guid(305aafabe111d8b449f77b15b46c555d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Pipe_Diffuse.png using Guid(305aafabe111d8b449f77b15b46c555d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a72403774351f91fdb8b595343bd13') in 0.019009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Silo_Paint_Specular.png
+  artifactKey: Guid(2e7d96230987ce145a67ae00b973450f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Silo_Paint_Specular.png using Guid(2e7d96230987ce145a67ae00b973450f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9883fa80e5ff6f8d350ecc817de07753') in 0.017646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Water_Basin_Round_Normal.png
+  artifactKey: Guid(849d9f863e86c79469b7046a7711f007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Water_Basin_Round_Normal.png using Guid(849d9f863e86c79469b7046a7711f007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373a5a4777407e12c1bbcd20547536e4') in 0.017145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Pipe_Normal.png
+  artifactKey: Guid(8abc6cac231ab7846a3235cc02e63430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Pipe_Normal.png using Guid(8abc6cac231ab7846a3235cc02e63430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3314a4946c39a2aacac9666a43ce7039') in 0.015318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Unfilterd.png
+  artifactKey: Guid(a6bea7db74463854fbca69bac583ed9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Unfilterd.png using Guid(a6bea7db74463854fbca69bac583ed9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3bcbf568a988833ce482c061020c36') in 0.016116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Silo_Steel_Specular.png
+  artifactKey: Guid(deab3c6c2f0d54d449c71b520e91b588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Silo_Steel_Specular.png using Guid(deab3c6c2f0d54d449c71b520e91b588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd416251f842464e57c06ef0ea40c0ea') in 0.017783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Semi_2_Filtered.png
+  artifactKey: Guid(c664411b99bc75040bd7daa9e463805e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Semi_2_Filtered.png using Guid(c664411b99bc75040bd7daa9e463805e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0cd86bb5cc3e2a8765041af02ae3b9') in 0.016839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Grass_Specular.png
+  artifactKey: Guid(c2e6695a9d59fcf4bb1badf8cdb147a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Grass_Specular.png using Guid(c2e6695a9d59fcf4bb1badf8cdb147a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9372360bfc53911544171aa67957f295') in 0.016463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Pipe_Specular.png
+  artifactKey: Guid(7f53b9a154d1b6547b6ae6cbe8777a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Pipe_Specular.png using Guid(7f53b9a154d1b6547b6ae6cbe8777a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c691baebd4a94fa416ff39b764eb860f') in 0.017064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Water_Basin_Round_Diffuse.png
+  artifactKey: Guid(73199869d4e9b5d409ef8c35dd7c7fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Water_Basin_Round_Diffuse.png using Guid(73199869d4e9b5d409ef8c35dd7c7fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac8ad052b447c3b988f69dd0e3f0030') in 0.016398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Silo_Paint_Normal.png
+  artifactKey: Guid(1f3bf3e3d1279f944bdbd9e7e18f7706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Silo_Paint_Normal.png using Guid(1f3bf3e3d1279f944bdbd9e7e18f7706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e511b87537c0cc708b77422120c8799') in 0.017198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Silo_Steel_Normal.png
+  artifactKey: Guid(28d0590150c5d2346af324ecec0c0fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Silo_Steel_Normal.png using Guid(28d0590150c5d2346af324ecec0c0fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3281f7f761cd3402dbb791394fa89c46') in 0.017094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Silo_Paint_Diffuse.png
+  artifactKey: Guid(49cbb800a6e45164baec3b4285e722fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Silo_Paint_Diffuse.png using Guid(49cbb800a6e45164baec3b4285e722fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2954ea2c3d9dd2da2126cca69c824f87') in 0.016887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Water_Filtration_Square_Diffuse.png
+  artifactKey: Guid(7c9890e1d9e1547498a03fe4934defab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Water_Filtration_Square_Diffuse.png using Guid(7c9890e1d9e1547498a03fe4934defab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcf55fc7cb396ce660d47762f5e52ff') in 0.018663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Road_Normal.png
+  artifactKey: Guid(5982e35b9f3ab544c8de40379cfb51ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Road_Normal.png using Guid(5982e35b9f3ab544c8de40379cfb51ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab7e24fbe5f7abc97bbd21ca368c179') in 0.016620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Water_Basin_Round_Specular.png
+  artifactKey: Guid(f3a74d0f09af548408d7d3b809b578aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Water_Basin_Round_Specular.png using Guid(f3a74d0f09af548408d7d3b809b578aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5187afe4ca6b8cfd592d3bc4caea54') in 0.017183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Silo_Steel_Diffuse.png
+  artifactKey: Guid(55762421582a18946aaffb66ab7e4ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Silo_Steel_Diffuse.png using Guid(55762421582a18946aaffb66ab7e4ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39f907082a9170d5e1b94b43e11d614') in 0.016883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Road_Specular.png
+  artifactKey: Guid(92b7ff662c935cd49acaeb6d9733022a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Road_Specular.png using Guid(92b7ff662c935cd49acaeb6d9733022a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b1487cf09f4e704d8ec626b2355cd5') in 0.018501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Water_Filtration_Square_Normal.png
+  artifactKey: Guid(99ffb49a5e4ec944bb6f195144e6a835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Water_Treatment_Plant_001_Water_Filtration_Square_Normal.png using Guid(99ffb49a5e4ec944bb6f195144e6a835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d301214eca113f934e1c89032334fc5') in 0.015666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.542461 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/PlantaAgua.fbx
+  artifactKey: Guid(8f28954dd3f03c742b0282835af64515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/PlantaAgua.fbx using Guid(8f28954dd3f03c742b0282835af64515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350fac3b3717cf8c8e6c5ff2fb3937bb') in 0.689515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.534490 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Textures
+  artifactKey: Guid(636a3f77786898a4fae8074c61dec034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Textures using Guid(636a3f77786898a4fae8074c61dec034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae86c54964b563998c6c516a847a83d') in 0.012133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.575395 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/PlantaAgua.fbx
+  artifactKey: Guid(8f28954dd3f03c742b0282835af64515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/PlantaAgua.fbx using Guid(8f28954dd3f03c742b0282835af64515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8230d75f6492487210240569b3285f1') in 0.252306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.254675 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/PlantaAgua.fbx
+  artifactKey: Guid(8f28954dd3f03c742b0282835af64515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/PlantaAgua.fbx using Guid(8f28954dd3f03c742b0282835af64515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838881f002ee17b71d9752b3ef8f52bb') in 0.407124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 715.691567 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials
+  artifactKey: Guid(7e6e04a02ead92c4ab69a44f9db5a65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials using Guid(7e6e04a02ead92c4ab69a44f9db5a65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18abd5bc13ef9cce93ebb5e505b1fbfb') in 0.014108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009126 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Building_Exterior.mat
+  artifactKey: Guid(ea0b1bdd5c6298c46b52c39276c511c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Building_Exterior.mat using Guid(ea0b1bdd5c6298c46b52c39276c511c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7739f2f673abec84bdea4f3c84c8ee') in 0.061205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Silo_Steel.mat
+  artifactKey: Guid(86a3daef8ea53c442aeffe1ebaf3d899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Silo_Steel.mat using Guid(86a3daef8ea53c442aeffe1ebaf3d899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c81a49ef6967a9b40cfe53ec698c4c') in 0.031844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Water_Semi_filtered.mat
+  artifactKey: Guid(668e0731384d9ec40a755fd2eb5b3353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Water_Semi_filtered.mat using Guid(668e0731384d9ec40a755fd2eb5b3353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabb9d7d52041611d3bbdc17cb54f68d') in 0.018152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Grass.mat
+  artifactKey: Guid(746f1b80704a95a4da06813ec437b15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Grass.mat using Guid(746f1b80704a95a4da06813ec437b15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d5f74f458a27ec311d99c88d53a553') in 0.023243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Silo_Paint.mat
+  artifactKey: Guid(248b446687f976a419c02608795ac8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Silo_Paint.mat using Guid(248b446687f976a419c02608795ac8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fab6125e995e7e84d1ad281875e2f70') in 0.020075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Steel.mat
+  artifactKey: Guid(1ba728efc5ed34848852cde9b5260e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Steel.mat using Guid(1ba728efc5ed34848852cde9b5260e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d2c9a0bafe11f1836a873e75637d31') in 0.020796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Road.mat
+  artifactKey: Guid(3c55dcd8129b0d24ea66e383bddcdbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Road.mat using Guid(3c55dcd8129b0d24ea66e383bddcdbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1620684b6dcc06cf82fdd1488b9a6e8b') in 0.036946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.537338 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Water_filtered.mat
+  artifactKey: Guid(6426320125eb6e148aa9bef5f6307ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Water_filtered.mat using Guid(6426320125eb6e148aa9bef5f6307ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c068be94eda9945a6a1fae7b5e7e7466') in 0.020543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Water_Semi_filtered.mat
+  artifactKey: Guid(668e0731384d9ec40a755fd2eb5b3353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Water_Semi_filtered.mat using Guid(668e0731384d9ec40a755fd2eb5b3353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b11b759f3cfc4b52727ee991e39d715') in 0.020145 seconds 

@@ -18,7 +18,7 @@ public class transeuntesCaminado : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.position.z>limit1.transform.position.z && transform.position.z < limit2.transform.position.z)
+        if(transform.localPosition.z>limit1.transform.localPosition.z && transform.localPosition.z < limit2.transform.localPosition.z)
         {
             transform.localPosition += Vector3.forward * Time.deltaTime * velocidad * dir;
         }

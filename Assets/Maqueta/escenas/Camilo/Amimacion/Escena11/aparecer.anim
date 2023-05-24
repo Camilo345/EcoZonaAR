@@ -542,7 +542,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 15.033334
+  - time: 15.016666
     functionName: emitir
     data: 
     objectReferenceParameter: {fileID: 0}

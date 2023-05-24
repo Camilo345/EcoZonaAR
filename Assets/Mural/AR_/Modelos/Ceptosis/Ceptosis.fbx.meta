@@ -5,7 +5,7 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: 8593829793681748656
-    second: Nadar
+    second: RigCeptosisAction
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -46,7 +46,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Nadar
+      name: RigCeptosisAction
       takeName: RigCeptosisAction
       internalID: 0
       firstFrame: 0

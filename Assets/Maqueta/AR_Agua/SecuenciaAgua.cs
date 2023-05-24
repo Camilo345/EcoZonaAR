@@ -5,14 +5,13 @@ using UnityEngine;
 public class SecuenciaAgua : MonoBehaviour
 {
     [SerializeField] private GameObject[] clips;
-    [SerializeField] private float tiempoEntreClip;
+    //[SerializeField] private float tiempoEntreClip;
     private int index = 0;
 
-    // Start is called before the first frame update
     void Start()
     {
         clips[index].SetActive(true);
-        Invoke("spawnAndContinue", tiempoEntreClip);
+        Invoke("spawnAndContinue", clips[index].GetComponent<AudioSource>().clip.length);
         index++;
     }
 
@@ -22,8 +21,8 @@ public class SecuenciaAgua : MonoBehaviour
         {
             clips[index - 1].SetActive(false);
             clips[index].SetActive(true);
+            Invoke("spawnAndContinue", clips[index].GetComponent<AudioSource>().clip.length);
             index++;
-            Invoke("spawnAndContinue", tiempoEntreClip);
         }
     }
 }

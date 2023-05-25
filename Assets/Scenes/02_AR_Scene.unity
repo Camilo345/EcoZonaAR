@@ -4326,7 +4326,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -19876,7 +19876,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &833755874
 RectTransform:
   m_ObjectHideFlags: 0
@@ -27921,6 +27921,7 @@ GameObject:
   - component: {fileID: 1169060977}
   - component: {fileID: 1169060978}
   - component: {fileID: 1169060979}
+  - component: {fileID: 1169060980}
   m_Layer: 0
   m_Name: AR_Objects
   m_TagString: Untagged
@@ -27979,27 +27980,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   elements:
-  - {fileID: 1398620271}
   - {fileID: 1744139222}
+  - {fileID: 1970710736}
+  - {fileID: 1398620271}
   - {fileID: 1893284461}
   - {fileID: 842497071}
   - {fileID: 637509009}
   - {fileID: 1606007323}
   - {fileID: 836771327}
-  - {fileID: 1970710736}
   - {fileID: 1067734397}
   - {fileID: 1632874783}
   - {fileID: 1987645628}
   - {fileID: 1572474248}
   infoElements:
-  - "<size=60>Alcarav\xE1n!</size> "
   - '<size=60>Armadillo!</size> '
+  - '<size=60>Morrocoya!</size> '
+  - "<size=60>Alcarav\xE1n!</size> "
   - '<size=60>Ceptosis!</size> '
   - '<size=60>Cocora!</size> '
   - '<size=60>Danta!</size> '
   - '<size=60>Guarupaya!</size> '
   - '<size=60>Rana!</size> '
-  - '<size=60>Morrocoya!</size> '
   - "<size=60>zarig\xFCeya!</size> "
   - "<size=60>Murci\xE9lago!</size> "
   - "<size=60>chig\xFCiro!</size> "
@@ -28034,6 +28035,20 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   Counter: 0
+--- !u!114 &1169060980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169060976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c363ed81397464593ef9ba3731d37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaAnimales: []
+  controlerAnimales: {fileID: 1169060979}
 --- !u!1 &1181178785
 GameObject:
   m_ObjectHideFlags: 0
@@ -34405,18 +34420,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1169060978}
-        m_TargetAssemblyTypeName: Lean.Transition.LeanManualAnimation, LeanTransition
-        m_MethodName: BeginTransitions
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 833755877}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
@@ -34427,7 +34430,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 833755875}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
@@ -34439,7 +34442,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 282123485}
         m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine

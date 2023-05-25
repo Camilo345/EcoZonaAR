@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using UnityEngine.UI;
+
 public class Screenshoot : MonoBehaviour
 {
     public RawImage PhotoImage;
     public GameObject panel;
     public List<GameObject> UI;
     public GameObject marco;
+
+    private Texture2D texturaScreen;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,7 +52,9 @@ public class Screenshoot : MonoBehaviour
         string name = "ScreenShoot_AR" + System.DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss")+".png";
         // string filePath = Path.Combine(GetAndroidExternalStoragePath(), name);
         //  File.WriteAllBytes(filePath, texture.EncodeToPNG());
+      //  texturaScreen = texture;
         NativeGallery.SaveImageToGallery(texture, "Fotos Animales Ecopetrol", name);
+        Debug.Log(name);
         Destroy(texture);
     }
 
@@ -93,4 +98,5 @@ public class Screenshoot : MonoBehaviour
         panel.SetActive(false);
         DesactivateUI(true);
     }
+
 }

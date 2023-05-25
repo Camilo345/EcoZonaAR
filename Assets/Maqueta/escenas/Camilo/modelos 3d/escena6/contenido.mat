@@ -123,7 +123,7 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _fill: 0
+    - _fill: -2.5
     - _origin: -60.58
     - _spread: 0
     m_Colors:

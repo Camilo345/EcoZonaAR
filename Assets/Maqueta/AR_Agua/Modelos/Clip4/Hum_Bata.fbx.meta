@@ -49,32 +49,32 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Bata_Diffuse
-    second: {fileID: 2800000, guid: e4008b12bae98524b9f2050b4d063129, type: 3}
+    second: {fileID: 2800000, guid: bef3dcfc70f28f44fa928000694add80, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Pantalon_Diffuse
-    second: {fileID: 2800000, guid: f1219e1999889fb439012690f4ea7df8, type: 3}
+    second: {fileID: 2800000, guid: 64e98e9f546b36d4c8a23bcf3e34d30b, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: eyebrow009
-    second: {fileID: 2800000, guid: ea1368b7a3002ab49b3508ca6558e190, type: 3}
+    second: {fileID: 2800000, guid: 0efe1288f5a61bd4ab58e92050155f20, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: sh_catWorkBoot_albedo
-    second: {fileID: 2800000, guid: 2909294f3fa31c440980e2b5c1c1c960, type: 3}
+    second: {fileID: 2800000, guid: 83ce31f280a6d2f4b972a0360620280d, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: short02_diffuse
-    second: {fileID: 2800000, guid: 09062e5689debf04480df1ae7e1c75c4, type: 3}
+    second: {fileID: 2800000, guid: 011cb50f21dde9843b64b29fed7e97ee, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: young_lightskinned_male_diffuse2
-    second: {fileID: 2800000, guid: a5a9a74bcc9783e4ea1cff2eb5c1c079, type: 3}
+    second: {fileID: 2800000, guid: 4e633bea5f0ff624eabd72d449742ad8, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

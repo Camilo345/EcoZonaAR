@@ -15,7 +15,7 @@ C:/Users/Daniel/Documents/GitHub/EcoZonaAR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58947
+64895
 Successfully changed project path to: C:/Users/Daniel/Documents/GitHub/EcoZonaAR
 C:/Users/Daniel/Documents/GitHub/EcoZonaAR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/Daniel/Documents/GitHub/EcoZonaAR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 213.53 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 3.41 ms.
+Refreshing native plugins compatible for Editor in 155.47 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 2.84 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Daniel/Documents/GitHub/EcoZonaAR/Assets
@@ -63,237 +63,163 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005497 seconds.
+Registered in 0.005425 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 156.53 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 0.16 ms.
+Refreshing native plugins compatible for Editor in 136.04 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.871 seconds
+- Completed reload, in  0.824 seconds
 Domain Reload Profiling:
-	ReloadAssembly (871ms)
-		BeginReloadAssembly (93ms)
+	ReloadAssembly (824ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (637ms)
-			LoadAssemblies (92ms)
+		EndReloadAssembly (555ms)
+			LoadAssemblies (120ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (131ms)
+			SetupTypeCache (111ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (408ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (361ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (79ms)
+				InitializePlatformSupportModulesInManaged (75ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (157ms)
+				RefreshPlugins (136ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (111ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011342 seconds.
+Registered in 0.009635 seconds.
 Begin MonoManager ReloadAssembly
+An ADB process has shut down when we were accessing it, the following System.Threading.ThreadAbortException has been thrown: Thread was being aborted..
 Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 295.65 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 0.23 ms.
+Refreshing native plugins compatible for Editor in 131.74 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.874 seconds
+- Completed reload, in  1.624 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2876ms)
-		BeginReloadAssembly (263ms)
+	ReloadAssembly (1625ms)
+		BeginReloadAssembly (227ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (147ms)
-		EndReloadAssembly (2455ms)
-			LoadAssemblies (144ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (1275ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (473ms)
+			SetupTypeCache (315ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (152ms)
-			SetupLoadedEditorAssemblies (1550ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (722ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (45ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (296ms)
-				BeforeProcessingInitializeOnLoad (238ms)
-				ProcessInitializeOnLoadAttributes (738ms)
-				ProcessInitializeOnLoadMethodAttributes (217ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 2.60 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 0.27 ms.
-Unloading 6167 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 74 unused Assets / (1.9 MB). Loaded Objects now: 6913.
-Memory consumption went from 283.2 MB to 281.2 MB.
-Total: 11.964200 ms (FindLiveObjects: 1.005200 ms CreateObjectMapping: 0.710800 ms MarkObjects: 8.884600 ms  DeleteObjects: 1.357400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 48931.498933 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip6
-  artifactKey: Guid(fb0df87ef9475064d85f8bc52bf852ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip6 using Guid(fb0df87ef9475064d85f8bc52bf852ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138b462c5d183781d20095ce7b45d5b2') in 0.032538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.018159 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip6/Escena6.fbx
-  artifactKey: Guid(a2dbb97ef8a272143976e256ed109f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip6/Escena6.fbx using Guid(a2dbb97ef8a272143976e256ed109f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d9f6f28b97c35e21b6d87bd49227b5') in 0.875382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.913502 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip6/Escena6.fbx
-  artifactKey: Guid(a2dbb97ef8a272143976e256ed109f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip6/Escena6.fbx using Guid(a2dbb97ef8a272143976e256ed109f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b63cffa124050961ce4de3163935fd') in 0.079005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.467060 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip6/Escena6.fbx
-  artifactKey: Guid(a2dbb97ef8a272143976e256ed109f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip6/Escena6.fbx using Guid(a2dbb97ef8a272143976e256ed109f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a95acae3499f37bc7152193c6b76b28') in 0.044404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1709.055392 seconds.
-  path: Assets/Maqueta/escenas/Ingrid/escenas/Ingrid/Recursos/esc 4/Assets/Audio/AyMiLlanura_cut.mp3
-  artifactKey: Guid(17227a1c915c2b24ca77612849e48015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/escenas/Ingrid/escenas/Ingrid/Recursos/esc 4/Assets/Audio/AyMiLlanura_cut.mp3 using Guid(17227a1c915c2b24ca77612849e48015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb442d62fe950d0e6332ab00c2557c2') in 0.073005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.141202 seconds.
-  path: Assets/Maqueta/AR Targets/pump.png
-  artifactKey: Guid(323312d6f230a234ebb7e7e8ff2b6d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR Targets/pump.png using Guid(323312d6f230a234ebb7e7e8ff2b6d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b36ca54add2cf730c06c45add9edc9a') in 0.059117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 312.482901 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip7
-  artifactKey: Guid(ee9c4ecd4ffd308409abbb0147c694e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip7 using Guid(ee9c4ecd4ffd308409abbb0147c694e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2aae23f5dd5fdc0500aead76fa71a25') in 0.010579 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.767628 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip7/TextoEscena7.fbx
-  artifactKey: Guid(b0f1601a7a90c0f4d8eb6ddfa7796a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip7/TextoEscena7.fbx using Guid(b0f1601a7a90c0f4d8eb6ddfa7796a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6fb4828a208fd31c70d183146f51668') in 0.039037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 82.121154 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip7/TextoSawn.anim
-  artifactKey: Guid(d786034460c9d5e4ba116cf23dfd8acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip7/TextoSawn.anim using Guid(d786034460c9d5e4ba116cf23dfd8acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c915728153edf234c11428ae460a4b4') in 0.013604 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.159275 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip7/TextoSpawn.anim
-  artifactKey: Guid(d786034460c9d5e4ba116cf23dfd8acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip7/TextoSpawn.anim using Guid(d786034460c9d5e4ba116cf23dfd8acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311a7d985f1da0f2086d3955fc0f9fa1') in 0.013136 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 10.83 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 0.09 ms.
-Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (1.9 MB). Loaded Objects now: 7047.
-Memory consumption went from 154.7 MB to 152.7 MB.
-Total: 8.575600 ms (FindLiveObjects: 0.407100 ms CreateObjectMapping: 0.337400 ms MarkObjects: 7.311400 ms  DeleteObjects: 0.518600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008174 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 0.11 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.224 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1224ms)
-		BeginReloadAssembly (155ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (979ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (474ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
+				InitializePlatformSupportModulesInManaged (23ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (285ms)
-				ProcessInitializeOnLoadMethodAttributes (77ms)
+				RefreshPlugins (132ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (372ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.99 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 0.07 ms.
-Unloading 5960 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (1.9 MB). Loaded Objects now: 7014.
-Memory consumption went from 274.2 MB to 272.3 MB.
-Total: 4.618900 ms (FindLiveObjects: 0.424900 ms CreateObjectMapping: 0.299100 ms MarkObjects: 3.420000 ms  DeleteObjects: 0.473900 ms)
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+Unloading 6167 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 74 unused Assets / (1.9 MB). Loaded Objects now: 6913.
+Memory consumption went from 283.2 MB to 281.2 MB.
+Total: 5.431100 ms (FindLiveObjects: 0.415600 ms CreateObjectMapping: 0.286200 ms MarkObjects: 4.202900 ms  DeleteObjects: 0.525200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 27403.057870 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip9/RotarEsfera.cs
+  artifactKey: Guid(45bffc860ab0d5c4f97749f6b69c8109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip9/RotarEsfera.cs using Guid(45bffc860ab0d5c4f97749f6b69c8109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde7839d3f0a9b37c3c68f1fa8c6cb09') in 0.080901 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011272 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.265 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1266ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (989ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.95 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Unloading 5953 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (1.9 MB). Loaded Objects now: 6917.
+Memory consumption went from 266.6 MB to 264.7 MB.
+Total: 4.969800 ms (FindLiveObjects: 0.544400 ms CreateObjectMapping: 0.257600 ms MarkObjects: 3.625700 ms  DeleteObjects: 0.540400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -309,69 +235,315 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 220.281175 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip7/TextoEscena7.controller
-  artifactKey: Guid(e1c987dbf96b9264b804d348c7d42678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip7/TextoEscena7.controller using Guid(e1c987dbf96b9264b804d348c7d42678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa747dc1d94c6c0319371ac1fc4355e') in 0.129601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.294516 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip7/TextoSpawn.anim
-  artifactKey: Guid(d786034460c9d5e4ba116cf23dfd8acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip7/TextoSpawn.anim using Guid(d786034460c9d5e4ba116cf23dfd8acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a28eef23f4dee4830001b52cb530a0') in 0.004421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.846097 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip7/TextoSpawn.anim
-  artifactKey: Guid(d786034460c9d5e4ba116cf23dfd8acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip7/TextoSpawn.anim using Guid(d786034460c9d5e4ba116cf23dfd8acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00536d0243f09a639552c24dfe1fb203') in 0.002981 seconds 
+  Time since last request: 43.462549 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip9/RotarEsfera.cs
+  artifactKey: Guid(45bffc860ab0d5c4f97749f6b69c8109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip9/RotarEsfera.cs using Guid(45bffc860ab0d5c4f97749f6b69c8109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa359cd36342fd8f9377c9058e13e45e') in 0.010525 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010858 seconds.
+Registered in 0.007893 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 1.38 ms, found 7 plugins.
 Preloading 2 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.207 seconds
+- Completed reload, in  1.171 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1207ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (1171ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (982ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (953ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (471ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (448ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.07 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Unloading 5953 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (1.9 MB). Loaded Objects now: 6920.
+Memory consumption went from 266.7 MB to 264.7 MB.
+Total: 4.137600 ms (FindLiveObjects: 0.345600 ms CreateObjectMapping: 0.241400 ms MarkObjects: 3.017200 ms  DeleteObjects: 0.532400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 128.450864 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip9/RotarEsfera.cs
+  artifactKey: Guid(45bffc860ab0d5c4f97749f6b69c8109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip9/RotarEsfera.cs using Guid(45bffc860ab0d5c4f97749f6b69c8109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e9ba1f3835723182e45f616283121f') in 0.013183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.439207 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip9/RotarEsfera.cs
+  artifactKey: Guid(45bffc860ab0d5c4f97749f6b69c8109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip9/RotarEsfera.cs using Guid(45bffc860ab0d5c4f97749f6b69c8109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3583913cebfcd8772530909b5dd631e') in 0.004631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.018034 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip9/RotarEsfera.cs
+  artifactKey: Guid(45bffc860ab0d5c4f97749f6b69c8109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip9/RotarEsfera.cs using Guid(45bffc860ab0d5c4f97749f6b69c8109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b145fac65a820d45467508359c1333e6') in 0.002194 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008872 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.259 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1259ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1046ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (512ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (87ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.72 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Unloading 5953 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (1.9 MB). Loaded Objects now: 6923.
+Memory consumption went from 266.7 MB to 264.7 MB.
+Total: 5.307400 ms (FindLiveObjects: 0.370800 ms CreateObjectMapping: 0.250000 ms MarkObjects: 3.991100 ms  DeleteObjects: 0.694200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010252 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.230 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1231ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (973ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (456ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (279ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (271ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.45 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Unloading 5953 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (1.9 MB). Loaded Objects now: 6926.
+Memory consumption went from 266.7 MB to 264.8 MB.
+Total: 4.149100 ms (FindLiveObjects: 0.371400 ms CreateObjectMapping: 0.258100 ms MarkObjects: 3.034100 ms  DeleteObjects: 0.484300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009453 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.276 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1277ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1019ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (530ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (312ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 8.15 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 0.18 ms.
-Unloading 5960 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (1.9 MB). Loaded Objects now: 7017.
-Memory consumption went from 274.2 MB to 272.3 MB.
-Total: 6.144000 ms (FindLiveObjects: 0.576600 ms CreateObjectMapping: 0.332500 ms MarkObjects: 4.471600 ms  DeleteObjects: 0.761700 ms)
+Refreshing native plugins compatible for Editor in 4.06 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Unloading 5953 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (1.9 MB). Loaded Objects now: 6929.
+Memory consumption went from 266.7 MB to 264.8 MB.
+Total: 4.886400 ms (FindLiveObjects: 0.566200 ms CreateObjectMapping: 0.291200 ms MarkObjects: 3.496100 ms  DeleteObjects: 0.531600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007906 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.198 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1199ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (895ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (453ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.53 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.08 ms.
+Unloading 5953 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (1.9 MB). Loaded Objects now: 6932.
+Memory consumption went from 266.7 MB to 264.8 MB.
+Total: 4.758400 ms (FindLiveObjects: 0.388900 ms CreateObjectMapping: 0.257600 ms MarkObjects: 3.544900 ms  DeleteObjects: 0.565500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -387,55 +559,295 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1530.497116 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip8
-  artifactKey: Guid(cdcb577e8f7001b45ad35f52c649f6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8 using Guid(cdcb577e8f7001b45ad35f52c649f6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79db49de0b71799f04849833dff40520') in 0.027550 seconds 
+  Time since last request: 255.879380 seconds.
+  path: Assets/Maqueta/AR_Agua/Audios/9.m4a
+  artifactKey: Guid(6bf9e05a7adf166458e7f50f8b9cf370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Audios/9.m4a using Guid(6bf9e05a7adf166458e7f50f8b9cf370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5aa9b0042957ffc85acad71c6406a7') in 0.087411 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.601642 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip2/TerrenoEscena8.fbx
-  artifactKey: Guid(46c56362e352a4a4f930a4e135f02b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip2/TerrenoEscena8.fbx using Guid(46c56362e352a4a4f930a4e135f02b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3893924f96f796630496daf5cc27a31b') in 0.475168 seconds 
+  Time since last request: 1.221803 seconds.
+  path: Assets/Maqueta/AR_Agua/Audios/3.m4a
+  artifactKey: Guid(6825828db35a1564bb7f7c8277cf6075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Audios/3.m4a using Guid(6825828db35a1564bb7f7c8277cf6075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7c6a4a7952c1f4a000b4309af04a81') in 0.009243 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.959073 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/TerrenoEscena8.fbx
-  artifactKey: Guid(1cede78cdd2c14c49920da8966f04357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/TerrenoEscena8.fbx using Guid(1cede78cdd2c14c49920da8966f04357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b426e4857573782d11b6cd041c04dec') in 0.041566 seconds 
+  Time since last request: 2.945687 seconds.
+  path: Assets/Maqueta/AR_Agua/Audios/4.m4a
+  artifactKey: Guid(75811dec8c813a44ebc184dd1d2be298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Audios/4.m4a using Guid(75811dec8c813a44ebc184dd1d2be298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62be54e0d39eab634ed1872e4da0f001') in 0.008933 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.252238 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Escena8.png
-  artifactKey: Guid(4606a2c1c1529c34a97f0e0b7af2bb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Escena8.png using Guid(4606a2c1c1529c34a97f0e0b7af2bb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350b83484e0b913cf3253c5a21dfe0c3') in 0.032907 seconds 
+  Time since last request: 1.519905 seconds.
+  path: Assets/Maqueta/AR_Agua/Audios/1.m4a
+  artifactKey: Guid(4ae4f4c226999b34d9c398a1576c5c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Audios/1.m4a using Guid(4ae4f4c226999b34d9c398a1576c5c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb769fd46bc02f5be9f2bbe347dd568f') in 0.011105 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.004455 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Escena8.mat
-  artifactKey: Guid(bc24aeccf2bc2b54d9b844efab076aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Escena8.mat using Guid(bc24aeccf2bc2b54d9b844efab076aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5988c3528bfb4fd20cf44d646656c141') in 0.024693 seconds 
+  Time since last request: 1557.602769 seconds.
+  path: Assets/Maqueta/AR_Agua/AudiosFinales
+  artifactKey: Guid(8230876efe238ee47ae26de232fe03d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/AudiosFinales using Guid(8230876efe238ee47ae26de232fe03d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d50e204746f59f30a6f7cf7be6e1e52') in 0.012684 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 243.395746 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Escena8.mat
-  artifactKey: Guid(bc24aeccf2bc2b54d9b844efab076aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Escena8.mat using Guid(bc24aeccf2bc2b54d9b844efab076aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba002803b56473483cd4b6ae9835e38') in 0.027588 seconds 
+  Time since last request: 10.843538 seconds.
+  path: Assets/Maqueta/AR_Agua/AudiosFinales/a1.mp3
+  artifactKey: Guid(40bdec0eb3f95b5468bcde12c353757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/AudiosFinales/a1.mp3 using Guid(40bdec0eb3f95b5468bcde12c353757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8efd67856a151990feab6048ad350cf') in 0.112236 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 145.862499 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/Hum_Bata.fbx
-  artifactKey: Guid(06c257542b3dff54997168800cf4b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/Hum_Bata.fbx using Guid(06c257542b3dff54997168800cf4b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42bf5af7e1f103a7c85677138bbddba') in 0.116974 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/Maqueta/AR_Agua/AudiosFinales/a4.mp3
+  artifactKey: Guid(2068452d841703544a1178aefb0075e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/AudiosFinales/a4.mp3 using Guid(2068452d841703544a1178aefb0075e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235048a8350e66295aa6ac178a1b34c3') in 0.021766 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/eyebrow009.png
-  artifactKey: Guid(0efe1288f5a61bd4ab58e92050155f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/eyebrow009.png using Guid(0efe1288f5a61bd4ab58e92050155f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7142935756daca36c778a7f17a6e29b9') in 0.018123 seconds 
+  Time since last request: 0.000044 seconds.
+  path: Assets/Maqueta/AR_Agua/AudiosFinales/a8.mp3
+  artifactKey: Guid(64caeedc4c8673840adef3e5ce557f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/AudiosFinales/a8.mp3 using Guid(64caeedc4c8673840adef3e5ce557f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f86a2d14ce9491298d48e68cd4fd8c') in 0.024270 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/young_lightskinned_male_diffuse2.png
-  artifactKey: Guid(4e633bea5f0ff624eabd72d449742ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/young_lightskinned_male_diffuse2.png using Guid(4e633bea5f0ff624eabd72d449742ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f1134380bf101f81a2e51defea7301') in 0.019348 seconds 
+  Time since last request: 0.000046 seconds.
+  path: Assets/Maqueta/AR_Agua/AudiosFinales/a9.mp3
+  artifactKey: Guid(60a40ff6cb5172e4f9dc4e695b94221f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/AudiosFinales/a9.mp3 using Guid(60a40ff6cb5172e4f9dc4e695b94221f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639445a225defb522dd3c313e9c9255c') in 0.025261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Maqueta/AR_Agua/AudiosFinales/a7.mp3
+  artifactKey: Guid(f2b19ad1574ba554ab966cccabc5dd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/AudiosFinales/a7.mp3 using Guid(f2b19ad1574ba554ab966cccabc5dd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049d6fa8037e92c6a43c1f02d03f3f6e') in 0.026157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Maqueta/AR_Agua/AudiosFinales/a3.mp3
+  artifactKey: Guid(5c88de8881a3ae74db87276289b00e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/AudiosFinales/a3.mp3 using Guid(5c88de8881a3ae74db87276289b00e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0c194e94dee8a07516690c8957198d') in 0.023890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2402.280990 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos
+  artifactKey: Guid(181bca090beb01c48a959b348804b4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos using Guid(181bca090beb01c48a959b348804b4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5802b182599f93ed2256eb8895a7e39c') in 0.010363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.342934 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/Amarilo.fbx
+  artifactKey: Guid(938e8086180f24846a4cca85b154a6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/Amarilo.fbx using Guid(938e8086180f24846a4cca85b154a6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd4a2fafbdefb98ce365e58b925fdba') in 0.559583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/Otek.fbx
+  artifactKey: Guid(dc4bcb120c9e1b54c9cd33aeb0ba14b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/Otek.fbx using Guid(dc4bcb120c9e1b54c9cd33aeb0ba14b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892dc3f143b52df72a019c6343d9cc23') in 0.045497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/Asorinoquia.fbx
+  artifactKey: Guid(4992865c7833311469c3647f1fbbc874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/Asorinoquia.fbx using Guid(4992865c7833311469c3647f1fbbc874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458bfbf9187e73c306692ec0f83568af') in 0.044773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/Elawa.fbx
+  artifactKey: Guid(50b05e888adb4c84fa33a0fe000bbc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/Elawa.fbx using Guid(50b05e888adb4c84fa33a0fe000bbc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd2e88d8785ffef095965f4e0f3f562') in 0.043726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/Ecopetrol.fbx
+  artifactKey: Guid(63b1f36464cb8fb47b9a311df10a6813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/Ecopetrol.fbx using Guid(63b1f36464cb8fb47b9a311df10a6813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f3f029a7b4ea6fc8933642e78ee388') in 0.042014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.236321 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde17bbed4a425e5a0c1d17b75b7b873') in 0.083808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/nature.png
+  artifactKey: Guid(ff0bbb40e6cee514a86bac7332f162c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/nature.png using Guid(ff0bbb40e6cee514a86bac7332f162c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1264025cc030a7a177b7102dedd360') in 0.022270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/manuelita.png
+  artifactKey: Guid(29eed8070f6726f42a243109b07d010d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/manuelita.png using Guid(29eed8070f6726f42a243109b07d010d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7190331ecf372868cd3cde6a715c612b') in 0.019552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/asorinoquia.png
+  artifactKey: Guid(22483adfcd26d9349ab93212fcc57625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/asorinoquia.png using Guid(22483adfcd26d9349ab93212fcc57625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed8fb841590acd5fb0471d1a1f94503') in 0.018580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/otek.png
+  artifactKey: Guid(4822400270e258544b0f80683c7b1bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/otek.png using Guid(4822400270e258544b0f80683c7b1bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43036434a6aa4fa06264bdc95864c827') in 0.026319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/elawa.png
+  artifactKey: Guid(580b1734c124c2044b45fd0e2ea671dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/elawa.png using Guid(580b1734c124c2044b45fd0e2ea671dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccec4ece79531cc370f35928ded2f1b2') in 0.020741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.152371 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/Amarilo.fbx
+  artifactKey: Guid(938e8086180f24846a4cca85b154a6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/Amarilo.fbx using Guid(938e8086180f24846a4cca85b154a6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e48cf10190cb60eb1fddec6df0d23bd') in 0.026732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.186442 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/Amarilo.fbx
+  artifactKey: Guid(938e8086180f24846a4cca85b154a6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/Amarilo.fbx using Guid(938e8086180f24846a4cca85b154a6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bdd3b3b47df8952b742b547f3f01bc4') in 0.025065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/Border.mat
+  artifactKey: Guid(1c9edd5eb7e47974896209b715c8b741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/Border.mat using Guid(1c9edd5eb7e47974896209b715c8b741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466c68b7b34cf0e4a0d7c3452defaf03') in 0.030982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.254894 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14eccb0aa14065738e2df671085a0c97') in 0.011189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.635699 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63eb79c2f9e78c4cecfa5a67bc5b77d3') in 0.009097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.620660 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7a4e9c881a888c0768365910c7b6d2') in 0.010234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.516074 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00795f3d2f5c4ce86ef58daeb360e93e') in 0.008885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.746020 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe6ec6090f0a91cb117ccb357608d53') in 0.008659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.198181 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48f8fd0654ea947a0aaf31749164675') in 0.009884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.625019 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c84d56c71110935dbfc5c5ce91a67a3') in 0.009341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.740753 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041fe5c4492687f54f5590936a61c748') in 0.009062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.457242 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8223426306a3f0801d82374ceaa22d1c') in 0.010379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.456601 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f4ec6300e80b17639115265b09fd00') in 0.009573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.523369 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fce70cf2dd1e8370923862e29d31b0a') in 0.030855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.556422 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d9ca10e6b1a72ebf97e0fff10eb810') in 0.023942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.493489 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef712311d2cbfa21f250476fc4ccfb4') in 0.015446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.969233 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8724c73ffc659985a95f3ce59067517') in 0.015319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.396385 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccfe6e8f4a29a21a702d801d4ff97cc') in 0.016139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.951186 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f203c31e428af9ddd332424960ba2c') in 0.010229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.086173 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6cc997a9d168e138cdd31bb9a44cba') in 0.009993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.012779 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a7a53b8927710850de3b4ee0fbbce3') in 0.019319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.144002 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc70e385f785e02c907653f00774b54f') in 0.023054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.836184 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559db9cae0d8aaa06e2ca5a8d21c6611') in 0.021734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.923036 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d517ceb840e4076507c45fc5b874d62') in 0.010971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.834229 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752d65578bece654107cd090a58ad9b1') in 0.023941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.576456 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png
+  artifactKey: Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip8/Logos/amarilo.png using Guid(72a94c2f0e6d671469998e917a168969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028cd6fc23a605d2c778b5c1829c40d3') in 0.013750 seconds 

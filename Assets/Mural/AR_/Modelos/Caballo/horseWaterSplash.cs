@@ -14,4 +14,14 @@ public class horseWaterSplash : MonoBehaviour
             partic.Play();
         }
     }
+
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    if (other.CompareTag("rio"))
+    //    {
+    //        Debug.Log("quito");
+    //        partic.Play();
+    //    }
+    //}
+
 }

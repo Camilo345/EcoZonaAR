@@ -39,6 +39,7 @@ public class Screenshoot : MonoBehaviour
         //Texture2D textureMarco = tomarCaptura();
       
         Texture2D texture = tomarCaptura();
+        texturaScreen = tomarCaptura();
         marco.SetActive(false);
         RenderTexture rt = new RenderTexture(texture.width / 2, texture.height / 2, 0);
         RenderTexture.active = rt;
@@ -52,7 +53,7 @@ public class Screenshoot : MonoBehaviour
         string name = "ScreenShoot_AR" + System.DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss")+".png";
         // string filePath = Path.Combine(GetAndroidExternalStoragePath(), name);
         //  File.WriteAllBytes(filePath, texture.EncodeToPNG());
-      //  texturaScreen = texture;
+        texturaScreen = texture;
         NativeGallery.SaveImageToGallery(texture, "Fotos Animales Ecopetrol", name);
         Debug.Log(name);
         Destroy(texture);
@@ -73,30 +74,48 @@ public class Screenshoot : MonoBehaviour
             UI[i].SetActive(state);
         }
     }
-    private string GetAndroidExternalStoragePath()
-    {
-        var path="";
-        if (Application.platform == RuntimePlatform.Android)
-        {
-            var jc = new AndroidJavaClass("android.os.Environment");
-            path = jc.CallStatic<AndroidJavaObject>("getExternalStoragePublicDirectory",
-                jc.GetStatic<string>("DIRECTORY_DCIM"))
-                .Call<string>("getAbsolutePath");
-        }
-        else
-        {
-           path= Application.dataPath + "/Resources/save_screen/" + name + ".jpg";
-        }
-           
-
-       
-        return path;
-    }
-
     public void closePanel()
     {
         panel.SetActive(false);
         DesactivateUI(true);
     }
 
+    public void compartirRedes()
+    {
+        StartCoroutine(TakeScreenshotAndShare());
+    }
+
+    private IEnumerator TakeScreenshotAndShare()
+    {
+       
+        yield return new WaitForEndOfFrame();
+
+        Texture2D texture = TextureToTexture2D(PhotoImage.texture);
+        Debug.Log(texture);
+        string filePath = Path.Combine(Application.temporaryCachePath, "shared img.png");
+        File.WriteAllBytes(filePath, texture.EncodeToPNG());
+        new NativeShare().AddFile(filePath)
+            .SetSubject("Subject goes here").SetText("Recuerdo de la visita a ZonaEco").Share();
+        DesactivateUI(true);
+        // Share on WhatsApp only, if installed (Android only)
+        //if( NativeShare.TargetExists( "com.whatsapp" ) )
+        //	new NativeShare().AddFile( filePath ).AddTarget( "com.whatsapp" ).Share();
+    }
+
+
+    private Texture2D TextureToTexture2D(Texture texture)
+    {
+        Texture2D texture2D = new Texture2D(texture.width, texture.height, TextureFormat.RGBA32, false);
+        RenderTexture currentRT = RenderTexture.active;
+        RenderTexture renderTexture = RenderTexture.GetTemporary(texture.width, texture.height, 32);
+        Graphics.Blit(texture, renderTexture);
+
+        RenderTexture.active = renderTexture;
+        texture2D.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
+        texture2D.Apply();
+
+        RenderTexture.active = currentRT;
+        RenderTexture.ReleaseTemporary(renderTexture);
+        return texture2D;
+    }
 }

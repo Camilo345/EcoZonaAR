@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class pasarEscen : MonoBehaviour
 {
+    public controlEscenas control;
+
 
     public delegate void eventoPasarEscena();
     public static event eventoPasarEscena pasarEscena;
@@ -24,11 +26,14 @@ public class pasarEscen : MonoBehaviour
 
     public void pasar()
     {
-        pasarEscena();
+        Debug.Log(gameObject.name);
+        control.pasarEscena();
+       // pasarEscena();
     }
 
     public void pasarAud()
     {
-        pasarAudio();
+        control.pasarAudio();
+      //  pasarAudio();
     }
 }

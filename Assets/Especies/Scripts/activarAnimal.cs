@@ -9,8 +9,9 @@ public class activarAnimal : MonoBehaviour
 
     private void OnEnable()
     {
-        listaAnimales = controlerAnimales.elements;
+      //  listaAnimales = controlerAnimales.elements;
         int animal = PlayerPrefs.GetInt("animal");
+        Debug.Log(animal);
         listaAnimales[animal].SetActive(true);
     }
     // Start is called before the first frame update

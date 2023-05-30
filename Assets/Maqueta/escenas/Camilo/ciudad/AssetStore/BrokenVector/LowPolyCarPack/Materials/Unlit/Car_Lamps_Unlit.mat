@@ -109,8 +109,8 @@ Material:
     - _ZTest: 4
     - _ZWrite: 1
     - _ZWriteControl: 0
-    - _pos: 2.0120451
-    - _pos2: -2.2113123
+    - _pos: 0.7399111
+    - _pos2: 0.74114776
     - _pos3Y: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}

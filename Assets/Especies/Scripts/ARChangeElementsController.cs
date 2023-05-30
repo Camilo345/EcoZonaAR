@@ -22,9 +22,9 @@ public class ARChangeElementsController : MonoBehaviour
         {
             element.SetActive(false);
         }
-        int ani = PlayerPrefs.GetInt("animal");
-        textInfo.text = infoElements[ani];
-        elements[ani].SetActive(true);
+        int animal = PlayerPrefs.GetInt("animal");
+        textInfo.text = infoElements[animal];
+        elements[animal].SetActive(true);
 
     }
 

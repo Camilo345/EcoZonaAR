@@ -12,7 +12,9 @@ public class controlEscenas : MonoBehaviour
     public int audioActual = 0;
     private void OnEnable()
     {
-        listaEscenas[0].SetActive(true);
+        //desactivarEscenas(false);
+      //  listaEscenas[0].SetActive(true);
+        
         if (esElMapa)
         {
             desactivarEscenas(true);
@@ -25,9 +27,9 @@ public class controlEscenas : MonoBehaviour
     {
         pasarEscen.pasarEscena -= pasarEscena;
         pasarEscen.pasarAudio -= pasarAudio;
-        desactivarEscenas(false);
-        escenaActual = 0;
-        audioActual = 0;
+    //    listaEscenas[escenaActual].SetActive(false);
+      //  escenaActual = 0;
+       // audioActual = 0;
     }
 
     public void pasarEscena()
@@ -38,7 +40,10 @@ public class controlEscenas : MonoBehaviour
     }
     public void pasarAudio()
     {
-        audioSou.PlayOneShot(listaAudios[audioActual]);
+        audioSou.Stop();
+        audioSou.clip = listaAudios[audioActual];
+        audioSou.Play();
+       // audioSou.PlayOneShot(listaAudios[audioActual]);
         audioActual++;
     }
 
@@ -49,5 +54,22 @@ public class controlEscenas : MonoBehaviour
         {
             listaEscenas[i].SetActive(estado);
         }
+    }
+
+    public void pausar()
+    {
+        //listaEscenas[escenaActual].SetActive(false);
+        audioSou.Stop();
+        //escenaActual = 0;
+        if(escenaActual>0)
+        audioActual--;
+    }
+
+    public void reiniciar()
+    {
+        desactivarEscenas(false);
+        listaEscenas[0].SetActive(true);
+        escenaActual = 0;
+        audioActual = 0;
     }
 }

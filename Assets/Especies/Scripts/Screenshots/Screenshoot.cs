@@ -128,6 +128,7 @@ public class Screenshoot : MonoBehaviour
     }
     public void closePanel()
     {
+        Debug.Log("d");
         panel.SetActive(false);
         DesactivateUI(true);
     }

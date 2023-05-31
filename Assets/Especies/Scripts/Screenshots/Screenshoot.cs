@@ -88,47 +88,8 @@ public class Screenshoot : MonoBehaviour
         return path;
     }
 
-    public void compartirRedes()
-    {
-        StartCoroutine(TakeScreenshotAndShare());
-    }
-
-    private IEnumerator TakeScreenshotAndShare()
-    {
-        yield return new WaitForEndOfFrame();
-        Texture2D texture =TextureToTexture2D(PhotoImage.texture);
-
-        string filePath = Path.Combine(Application.temporaryCachePath, "shared img.png");
-        File.WriteAllBytes(filePath, texture.EncodeToPNG());
-        Debug.Log(texture);
-        // To avoid memory leaks
-        Destroy(texture);
-
-        new NativeShare().AddFile(filePath)
-            .SetSubject("Subject goes here").SetText("Recuerdo de la visita a ZonaEco").Share();
-
-        // Share on WhatsApp only, if installed (Android only)
-        //if( NativeShare.TargetExists( "com.whatsapp" ) )
-        //	new NativeShare().AddFile( filePath ).AddTarget( "com.whatsapp" ).Share();
-    }
-    private Texture2D TextureToTexture2D(Texture texture)
-    {
-        Texture2D texture2D = new Texture2D(texture.width, texture.height, TextureFormat.RGBA32, false);
-        RenderTexture currentRT = RenderTexture.active;
-        RenderTexture renderTexture = RenderTexture.GetTemporary(texture.width, texture.height, 32);
-        Graphics.Blit(texture, renderTexture);
-
-        RenderTexture.active = renderTexture;
-        texture2D.ReadPixels(new Rect(0, 0, renderTexture.width, renderTexture.height), 0, 0);
-        texture2D.Apply();
-
-        RenderTexture.active = currentRT;
-        RenderTexture.ReleaseTemporary(renderTexture);
-        return texture2D;
-    }
     public void closePanel()
     {
-        Debug.Log("d");
         panel.SetActive(false);
         DesactivateUI(true);
     }

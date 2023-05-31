@@ -18,6 +18,10 @@ EditorBuildSettings:
     path: Assets/Scenes/LlanoAR.unity
     guid: 5558b33abbf8a9240933efa68a247b19
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/02_AR_EspeciesPlanos.unity
+=======
+    path: Assets/Scenes/02_AR_Scene.unity
+>>>>>>> origin/dev
     guid: 311cb90927712aa4f8170e2f81fcfe40
   m_configObjects: {}

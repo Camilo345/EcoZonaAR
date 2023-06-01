@@ -15,7 +15,7 @@ C:/Users/Daniel/Documents/GitHub/EcoZonaAR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54014
+64844
 Successfully changed project path to: C:/Users/Daniel/Documents/GitHub/EcoZonaAR
 C:/Users/Daniel/Documents/GitHub/EcoZonaAR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,113 +47,113 @@ C:/Users/Daniel/Documents/GitHub/EcoZonaAR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 296.47 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 5.38 ms.
+Refreshing native plugins compatible for Editor in 174.84 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 3.52 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Daniel/Documents/GitHub/EcoZonaAR/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
-    Vendor:   NVIDIA
-    VRAM:     6009 MB
-    Driver:   31.0.15.3203
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a6)
+    Vendor:   Intel
+    VRAM:     8044 MB
+    Driver:   30.0.101.1298
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009943 seconds.
+Registered in 0.005646 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 257.23 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 0.21 ms.
+Refreshing native plugins compatible for Editor in 153.06 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.317 seconds
+- Completed reload, in  0.821 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1318ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (822ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1019ms)
-			LoadAssemblies (105ms)
+		EndReloadAssembly (616ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (192ms)
+			SetupTypeCache (123ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (664ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (398ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (133ms)
+				InitializePlatformSupportModulesInManaged (78ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (258ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (90ms)
+				RefreshPlugins (153ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.021098 seconds.
+Registered in 0.014198 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 228.54 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 0.20 ms.
+Refreshing native plugins compatible for Editor in 147.72 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.706 seconds
+- Completed reload, in  1.806 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2707ms)
-		BeginReloadAssembly (349ms)
+	ReloadAssembly (1807ms)
+		BeginReloadAssembly (230ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (173ms)
-		EndReloadAssembly (2131ms)
-			LoadAssemblies (171ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (1441ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (499ms)
+			SetupTypeCache (358ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (128ms)
-			SetupLoadedEditorAssemblies (1265ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (838ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (38ms)
+				InitializePlatformSupportModulesInManaged (27ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (229ms)
-				BeforeProcessingInitializeOnLoad (201ms)
-				ProcessInitializeOnLoadAttributes (630ms)
-				ProcessInitializeOnLoadMethodAttributes (158ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (148ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (425ms)
+				ProcessInitializeOnLoadMethodAttributes (101ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
-Refreshing native plugins compatible for Editor in 2.25 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 0.24 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
 Unloading 6166 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 74 unused Assets / (2.0 MB). Loaded Objects now: 6912.
-Memory consumption went from 280.5 MB to 278.5 MB.
-Total: 9.237900 ms (FindLiveObjects: 0.712800 ms CreateObjectMapping: 0.636400 ms MarkObjects: 6.915700 ms  DeleteObjects: 0.970700 ms)
+Unloading 74 unused Assets / (1.9 MB). Loaded Objects now: 6909.
+Memory consumption went from 277.7 MB to 275.8 MB.
+Total: 7.244100 ms (FindLiveObjects: 0.459100 ms CreateObjectMapping: 0.306300 ms MarkObjects: 5.981000 ms  DeleteObjects: 0.496400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,197 +168,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 261436.840504 seconds.
-  path: Assets/Mural/AR_/ImagenMural.jpeg
-  artifactKey: Guid(ac47b939c8be3a14a8079f4b4ce0976a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mural/AR_/ImagenMural.jpeg using Guid(ac47b939c8be3a14a8079f4b4ce0976a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678a62414163b202fafff837482aece7') in 0.219209 seconds 
+  Time since last request: 96316.109907 seconds.
+  path: Assets/Scenes/LlanoAR.unity
+  artifactKey: Guid(5558b33abbf8a9240933efa68a247b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LlanoAR.unity using Guid(5558b33abbf8a9240933efa68a247b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d494bce269d7af43c43acf50f76c50') in 0.035909 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.375748 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignored.png
-  artifactKey: Guid(595bc97bc8e1e0b46bd4c2148ba3723a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignored.png using Guid(595bc97bc8e1e0b46bd4c2148ba3723a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bac8d9b4afdc2a60a51923d87a901d') in 0.130012 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mural/AR_/nuevoMural.jpg
+  artifactKey: Guid(5bcce94b8f0605449ab21b4b6eaef12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/AR_/nuevoMural.jpg using Guid(5bcce94b8f0605449ab21b4b6eaef12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb21be1e44bc13b085102a2482f0459') in 0.140674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 101.339860 seconds.
+  path: Assets/Mural
+  artifactKey: Guid(7ab08a3b4bc455747b5c7545e188ccdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural using Guid(7ab08a3b4bc455747b5c7545e188ccdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c5fc27e5b7dc63e2def5476bf94813') in 0.013580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.075071 seconds.
+  path: Assets/Mural/Prefabs
+  artifactKey: Guid(28eae8fa5d6b84d40ae1e023065be1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/Prefabs using Guid(28eae8fa5d6b84d40ae1e023065be1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d31d8dff4f428c90bccba84c6d917ae') in 0.018932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.815312 seconds.
+  path: Assets/Mural/AR_
+  artifactKey: Guid(f48000aabb87dc546a1992c09561e3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/AR_ using Guid(f48000aabb87dc546a1992c09561e3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6013cd4bae3aee6fd7b22b5e19a010a') in 0.010917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mural/AR_/Plane.mat
+  artifactKey: Guid(2eb1e835089be2c44a16e2bf6e902a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/AR_/Plane.mat using Guid(2eb1e835089be2c44a16e2bf6e902a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e078dfad4d086d6cbf7a73912c110dc') in 0.535461 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000042 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputControl.png
-  artifactKey: Guid(ec85de66fa5b64dd984fdcc82f8f92b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputControl.png using Guid(ec85de66fa5b64dd984fdcc82f8f92b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b919cb2065be02d90b0e5aba96981b76') in 0.038451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignoredoverlay@2x.png
-  artifactKey: Guid(999d04c0ea94ccc41b3d80788160695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignoredoverlay@2x.png using Guid(999d04c0ea94ccc41b3d80788160695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f2cfaf4d439e0ee3fae4b148cc5354') in 0.070128 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputControl@4x.png
-  artifactKey: Guid(08c99f7c2a7fa410d8567323e32ad5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/InputControl@4x.png using Guid(08c99f7c2a7fa410d8567323e32ad5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91b5fa7b0bc361bf2ad10ca33b9bf0b') in 0.036272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.209814 seconds.
-  path: Assets/Mural/AR_/nuevoMural.jpg
-  artifactKey: Guid(5bcce94b8f0605449ab21b4b6eaef12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mural/AR_/nuevoMural.jpg using Guid(5bcce94b8f0605449ab21b4b6eaef12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ab9b1bbb64e90a5a74e1483de2d7b0') in 0.096202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.967883 seconds.
-  path: Assets/Mural/AR_/nuevoMural.jpg
-  artifactKey: Guid(5bcce94b8f0605449ab21b4b6eaef12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mural/AR_/nuevoMural.jpg using Guid(5bcce94b8f0605449ab21b4b6eaef12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2323fec2d3d09c5cdfd4300e8fa3ccd2') in 0.065552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 68.957574 seconds.
-  path: Assets/Mural/AR_/ImageAR.prefab
-  artifactKey: Guid(fb5cc4ed3b361194b843f476ccd57589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mural/AR_/ImageAR.prefab using Guid(fb5cc4ed3b361194b843f476ccd57589) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'RigCeptosisAction' used by the Animation component 'Geo_cuerpo_ceptosis' must be marked as Legacy.
-The AnimationClip 'RigCeptosisAction' used by the Animation component 'Geo_cuerpo_ceptosis' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules\Animation\Animation.cpp line 2050]
-
-The AnimationClip 'RigCeptosisAction' used by the Animation component 'Geo_cuerpo_ceptosis' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules\Animation\Animation.cpp line 2050]
-
- -> (artifact id: 'e439b80fc50dbec876762e21b12c87be') in 2.079707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.034746 seconds.
-  path: Assets/Mural/AR_/ImageAR2.prefab
-  artifactKey: Guid(fb5cc4ed3b361194b843f476ccd57589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mural/AR_/ImageAR2.prefab using Guid(fb5cc4ed3b361194b843f476ccd57589) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'RigCeptosisAction' used by the Animation component 'Geo_cuerpo_ceptosis' must be marked as Legacy.
-The AnimationClip 'RigCeptosisAction' used by the Animation component 'Geo_cuerpo_ceptosis' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules\Animation\Animation.cpp line 2050]
-
-The AnimationClip 'RigCeptosisAction' used by the Animation component 'Geo_cuerpo_ceptosis' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules\Animation\Animation.cpp line 2050]
-
- -> (artifact id: '5731484003e6298b23e3c32de9696135') in 1.186805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.401087 seconds.
-  path: Assets/Mural/AR_/Plane 1.mat
-  artifactKey: Guid(7d3f9b09725d7b848b58ece5fa0f0b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mural/AR_/Plane 1.mat using Guid(7d3f9b09725d7b848b58ece5fa0f0b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab6c3e5fd77b65557b5e168c32d25f1') in 0.151572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.495906 seconds.
-  path: Assets/Mural/AR_/MuralTexturra.mat
-  artifactKey: Guid(7d3f9b09725d7b848b58ece5fa0f0b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mural/AR_/MuralTexturra.mat using Guid(7d3f9b09725d7b848b58ece5fa0f0b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923fc392238b6255efaae9bbf284444e') in 0.108591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.556852 seconds.
   path: Assets/Mural/AR_/MuralTextura.mat
   artifactKey: Guid(7d3f9b09725d7b848b58ece5fa0f0b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mural/AR_/MuralTextura.mat using Guid(7d3f9b09725d7b848b58ece5fa0f0b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee0f88f1516f310e0973321fb869d57') in 0.064495 seconds 
+Start importing Assets/Mural/AR_/MuralTextura.mat using Guid(7d3f9b09725d7b848b58ece5fa0f0b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0137aeb3995d1d0510ec7721d083aef') in 0.057133 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.676850 seconds.
-  path: Assets/Mural/AR_/ImageAR2.prefab
-  artifactKey: Guid(fb5cc4ed3b361194b843f476ccd57589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mural/AR_/ImageAR2.prefab using Guid(fb5cc4ed3b361194b843f476ccd57589) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'RigCeptosisAction' used by the Animation component 'Geo_cuerpo_ceptosis' must be marked as Legacy.
-The AnimationClip 'RigCeptosisAction' used by the Animation component 'Geo_cuerpo_ceptosis' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules\Animation\Animation.cpp line 2050]
-
-The AnimationClip 'RigCeptosisAction' used by the Animation component 'Geo_cuerpo_ceptosis' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules\Animation\Animation.cpp line 2050]
-
- -> (artifact id: 'f6454834f27a21774679ffd6532b621f') in 1.339149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.454391 seconds.
-  path: Assets/Mural/AR_/ImageAR2.prefab
-  artifactKey: Guid(fb5cc4ed3b361194b843f476ccd57589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mural/AR_/ImageAR2.prefab using Guid(fb5cc4ed3b361194b843f476ccd57589) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'RigCeptosisAction' used by the Animation component 'Geo_cuerpo_ceptosis' must be marked as Legacy.
-The AnimationClip 'RigCeptosisAction' used by the Animation component 'Geo_cuerpo_ceptosis' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules\Animation\Animation.cpp line 2050]
-
-The AnimationClip 'RigCeptosisAction' used by the Animation component 'Geo_cuerpo_ceptosis' must be marked as Legacy.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules\Animation\Animation.cpp line 2050]
-
- -> (artifact id: 'bcaedf628007e4968bb3970c03e92f6c') in 1.564834 seconds 
+  Time since last request: 0.000047 seconds.
+  path: Assets/Mural/AR_/ImagenMural.jpeg
+  artifactKey: Guid(ac47b939c8be3a14a8079f4b4ce0976a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mural/AR_/ImagenMural.jpeg using Guid(ac47b939c8be3a14a8079f4b4ce0976a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51864f3c61e3be44b4b926c4f3b5fe8') in 0.072864 seconds 

@@ -220,8 +220,8 @@ Material:
     - _AlphaDstBlend: 10
     - _AlphaSrcBlend: 1
     - _BackfaceAlpha: 0.929
-    - _BigCascadeAngle: 45.4
-    - _BigCascadeAngleFalloff: 80
+    - _BigCascadeAngle: 8.4
+    - _BigCascadeAngleFalloff: 1.3
     - _BigCascadeFalloff: 80
     - _BigCascadeFlowUVRefreshSpeed: 0.27
     - _BigCascadeFoamFalloff: 0.9
@@ -292,18 +292,18 @@ Material:
     - _FoamColorNoiseMultiply: 21
     - _FoamColorNoisePower: 10
     - _FoamColorNoisePowerr: 10
-    - _FoamDepth: 1
-    - _FoamFalloff: -80
+    - _FoamDepth: 1.19
+    - _FoamFalloff: -5.2
     - _FoamMetalic: 0
     - _FoamPower: 4
-    - _FoamSmoothness: 0
-    - _FoamSpecular: 0
+    - _FoamSmoothness: 0.208
+    - _FoamSpecular: 0.24
     - _FoamSpeed: 0.3
     - _FoamTiling: 2
     - _FoamWaveHardness: 1.3
-    - _FoamWaveMultiply: 2.7
+    - _FoamWaveMultiply: 2.41
     - _FoamWaveMultiplyy: 7
-    - _FoamWavePower: 3.1
+    - _FoamWavePower: 3.91
     - _FoamWavePowerr: 2
     - _Foamfalloff: -4
     - _GlobalTiling: 1.3

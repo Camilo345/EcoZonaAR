@@ -306,7 +306,7 @@ Material:
     - _FoamWavePower: 3.1
     - _FoamWavePowerr: 2
     - _Foamfalloff: -4
-    - _GlobalTiling: 1.3
+    - _GlobalTiling: 9.4
     - _GlossyReflections: 1
     - _Keyword1: 1
     - _Keyword2: 1
@@ -337,7 +337,7 @@ Material:
     - _SlowCascadeSpeed: 0.15
     - _SlowNormalScale: 0.3
     - _SlowWaterSpeed: 0.5
-    - _SlowWaterTessScale: 0.06
+    - _SlowWaterTessScale: 0.01
     - _SlowWaterTranslucencyMultiply: 1
     - _SmallCascadeAngle: 69.9
     - _SmallCascadeAngleFalloff: 80
@@ -394,7 +394,7 @@ Material:
     - _WaterFallOfBorder: 9.32
     - _WaterFalloff: 0.143
     - _WaterFalloffBorder: 8.46
-    - _WaterFlowUVRefresSpeed: 0.105
+    - _WaterFlowUVRefresSpeed: 0.02
     - _WaterMetalic: 0.081
     - _WaterNormalScale: 0.5
     - _WaterShalowDepth: 3.85
@@ -452,7 +452,7 @@ Material:
     - _NoiseTling: {r: 4, g: 4, b: 0, a: 0}
     - _ShalowColor: {r: 0.38271868, g: 0.3962264, b: 0.2971698, a: 0}
     - _SlowCascadeColor: {r: 20, g: 20, b: 20, a: 0}
-    - _SlowWaterMixSpeed: {r: 0.002, g: 0.002, b: 0, a: 0}
+    - _SlowWaterMixSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _SlowWaterSpeed: {r: 0.27, g: 0.58, b: 0, a: 0}
     - _SlowWaterTiling: {r: 2, g: 2, b: 0, a: 0}
     - _SlowWaterTling: {r: 3, g: 3, b: 0, a: 0}

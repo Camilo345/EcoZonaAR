@@ -9,6 +9,7 @@ public class ARChangeElementsController : MonoBehaviour
 {
     
     public List<GameObject> elements;
+    [TextArea(1,20)]
     public List<string> infoElements;
     public List<float> scaleFactor;
     public Text textInfo;

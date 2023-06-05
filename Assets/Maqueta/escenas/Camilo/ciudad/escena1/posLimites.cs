@@ -29,6 +29,7 @@ public class posLimites : MonoBehaviour
         {
             for (int i = 0; i < listaMaterial.Count; i++)
             {
+
                 listaMaterial[i].SetFloat("_pos2", limite1.transform.position.z);
                 listaMaterial[i].SetFloat("_pos", limite2.transform.position.z);
                 listaMaterial[i].SetVector("_pos_1", centro.transform.position);

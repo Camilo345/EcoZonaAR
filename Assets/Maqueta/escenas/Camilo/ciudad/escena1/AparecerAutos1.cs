@@ -32,6 +32,7 @@ public class AparecerAutos1 : MonoBehaviour
             int r = Random.Range(0, listaCarros1.Count);
             if (!listaCarros1[r].activeInHierarchy)
             {
+                Debug.Log(r);
                 listaCarros1[r].SetActive(true);
                 salir = true;
             }

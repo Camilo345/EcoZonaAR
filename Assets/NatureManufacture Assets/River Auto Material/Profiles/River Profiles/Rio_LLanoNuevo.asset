@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d559ec07676f794ea460d4324322121, type: 3}
   m_Name: Rio_LLanoNuevo
   m_EditorClassIdentifier: 
-  splineMaterial: {fileID: 2100000, guid: 96ddc465ac42dbf4da90b9888a5ce38c, type: 2}
+  splineMaterial: {fileID: 2100000, guid: 5fc3c7c5f240d184999c0a222fed7eed, type: 2}
   meshCurve:
     serializedVersion: 2
     m_Curve:

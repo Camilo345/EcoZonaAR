@@ -20,7 +20,7 @@ Material:
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
-  m_CustomRenderQueue: 2995
+  m_CustomRenderQueue: 3001
   stringTagMap:
     MotionVector: User
     RenderType: Transparent
@@ -28,6 +28,7 @@ Material:
   - MOTIONVECTORS
   - TransparentBackface
   - SHADOWCASTER
+  - DepthOnly
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -254,8 +255,8 @@ Material:
     - _CascadesNoisePower: 2.71
     - _CastShadows: 0
     - _ChromaticAberration: 0.1
-    - _CleanFalloffMultiply: 27.54
-    - _CleanFalloffPower: 0.3
+    - _CleanFalloffMultiply: 5.4
+    - _CleanFalloffPower: 1.2
     - _ClearWaterFalloff: 10
     - _Cull: 0
     - _CullMode: 0
@@ -266,7 +267,7 @@ Material:
     - _Depth: 0.98
     - _DepthFalloff: -13
     - _DiffusionProfileHash: 3.0698588
-    - _Distortion: 0.161
+    - _Distortion: 0.04
     - _DistortionBackface: 20
     - _DoubleSidedEnable: 1
     - _DoubleSidedNormalMode: 1
@@ -320,7 +321,7 @@ Material:
     - _NormalScale: 0.25
     - _Occlusion: 0.48
     - _QueueControl: 0
-    - _QueueOffset: -5
+    - _QueueOffset: 1
     - _ReceiveShadows: 1
     - _ReceivesSSR: 1
     - _Reflection: 0.66
@@ -330,8 +331,8 @@ Material:
     - _ShallowDistortion: 20
     - _ShalowDepth: 0.7
     - _ShalowFalloff: -1.2
-    - _ShalowFalloffMultiply: 0.03
-    - _ShalowFalloffPower: 14.02
+    - _ShalowFalloffMultiply: -0.05
+    - _ShalowFalloffPower: 21.23
     - _SlowCascadeAngle: 0.001
     - _SlowCascadeFalloff: 80
     - _SlowCascadeFoamFalloff: 5.86
@@ -388,8 +389,8 @@ Material:
     - _UseShadowThreshold: 0
     - _Vdirection: 0
     - _VertexOffsetScale: 0.1
-    - _WaterAlphaMultiply: 5.8
-    - _WaterAlphaPower: 2.2
+    - _WaterAlphaMultiply: 5.4
+    - _WaterAlphaPower: 3.83
     - _WaterDeepTranslucencyPower: 0.1
     - _WaterDepth: 0.143
     - _WaterFallOfBorder: 9.32
@@ -401,7 +402,7 @@ Material:
     - _WaterShalowDepth: 3.85
     - _WaterShalowFalloff: -3.43
     - _WaterShalowTranslucencyPower: 0
-    - _WaterSmoothness: 0.746
+    - _WaterSmoothness: 0.756
     - _WaterSpecular: 0.1
     - _WaterSpecularClose: 0.092
     - _WaterSpecularFar: 0.171
@@ -412,17 +413,17 @@ Material:
     - _WaterTranslucencyPower: 0.55
     - _WaterTransparency: 0
     - _WaveTranslucencyFallOffDistance: 18.52
-    - _WaveTranslucencyHardness: 2.64
-    - _WaveTranslucencyMultiply: 0.45
-    - _WaveTranslucencyPower: 2.25
+    - _WaveTranslucencyHardness: 2.14
+    - _WaveTranslucencyMultiply: 0.09
+    - _WaveTranslucencyPower: 2.61
     - _WavesVertexOffsetALPHA: 0
     - _WorkflowMode: 0
     - _ZTest: 4
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
-    - _ZWrite: 1
-    - _ZWriteControl: 1
+    - _ZWrite: 0
+    - _ZWriteControl: 0
     - __dirty: 0
     - _test: 0.35
     m_Colors:
@@ -433,7 +434,7 @@ Material:
     - _CascadeColor: {r: 20, g: 20, b: 20, a: 0}
     - _Color0: {r: 0, g: 0.6749488, b: 0.8088235, a: 0}
     - _Color1: {r: 0, g: 0.048731543, b: 0.22794023, a: 0}
-    - _DeepColor: {r: 0.19960839, g: 0.3962264, b: 0.34975305, a: 0}
+    - _DeepColor: {r: 0.2784314, g: 0.5803922, b: 0.59607846, a: 0}
     - _DiffusionProfileAsset: {r: 0.0065936996, g: -1.7619802e-26, b: -9.742697e-30,
         a: 1.0868426e+35}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
@@ -451,7 +452,7 @@ Material:
     - _NoiseSpeed: {r: 0.7, g: 0.7, b: 0, a: 0}
     - _NoiseTiling: {r: 2, g: 2, b: 0, a: 0}
     - _NoiseTling: {r: 4, g: 4, b: 0, a: 0}
-    - _ShalowColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 0}
+    - _ShalowColor: {r: 0.2509804, g: 0.43529415, b: 0.2901961, a: 0}
     - _SlowCascadeColor: {r: 20, g: 20, b: 20, a: 0}
     - _SlowWaterMixSpeed: {r: 0.002, g: 0.002, b: 0, a: 0}
     - _SlowWaterSpeed: {r: 0.27, g: 0.58, b: 0, a: 0}

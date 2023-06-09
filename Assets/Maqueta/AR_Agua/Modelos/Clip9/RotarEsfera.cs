@@ -4,30 +4,34 @@ using UnityEngine;
 
 public class RotarEsfera : MonoBehaviour
 { 
-    [SerializeField]
-    private float velocidadRotacion = 1.0f;
+    [SerializeField] private float velocidadRotacion = 1.0f;
 
     public enum Eje { x, y, z}
 
     public Eje EjeRotacion;
 
-
-    private void Update()
+    private Vector3 axis = new Vector3(0,0,0);
+    private void Start()
     {
         switch (EjeRotacion)
         {
             case Eje.x:
-                transform.RotateAround(transform.position, transform.right, Time.deltaTime * velocidadRotacion);
+                axis = transform.right;
                 break;
             case Eje.y:
-                transform.RotateAround(transform.position, transform.up, Time.deltaTime * velocidadRotacion);
+                axis = transform.up;
                 break;
             case Eje.z:
-                transform.RotateAround(transform.position, transform.forward, Time.deltaTime * velocidadRotacion);
+                axis = transform.forward;
                 break;
             default:
                 break;
         }
+    }
+
+    private void Update()
+    {
+        transform.RotateAround(transform.position, axis, Time.deltaTime * velocidadRotacion);
     }
 }
 

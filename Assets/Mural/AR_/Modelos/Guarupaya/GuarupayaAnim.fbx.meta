@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: d7aef0404bd91a24ea8bc72c3eeb7c2f
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 5887803340095988824
+    second: GuarupayaNada
+  - first:
+      74: 7117069058695101305
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Aleta_E_01|Take 001|BaseLayer
+  - first:
+      74: 2692505091000103422
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Aleta_E_02|Take 001|BaseLayer
+  - first:
+      74: -9141730223980446533
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Aleta_E_03|Take 001|BaseLayer
+  - first:
+      74: 4144614514769398842
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Aleta_Inf_01_Der|Take 001|BaseLay
+  - first:
+      74: -4413641167474352518
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Aleta_Inf_01_Izq|Take 001|BaseLay
+  - first:
+      74: 4374670210212027523
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Aleta_Inf_02_Der|Take 001|BaseLay
+  - first:
+      74: -7804491522384592932
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Aleta_Inf_02_Izq|Take 001|BaseLay
+  - first:
+      74: -5490835308649725935
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Aleta_Inf_Der|Take 001|BaseLayer
+  - first:
+      74: 5633970488228801060
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Aleta_Inf_Izq|Take 001|BaseLayer
+  - first:
+      74: -6676391223305019521
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Aleta_Sup_01_Der|Take 001|BaseLay
+  - first:
+      74: -1188163657080358331
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Aleta_Sup_01_Izq|Take 001|BaseLay
+  - first:
+      74: -6233015018967744981
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Aleta_Sup_02_Der|Take 001|BaseLay
+  - first:
+      74: -765298366621086167
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Aleta_Sup_02_Izq|Take 001|BaseLay
+  - first:
+      74: 7055606551470499288
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Aleta_Sup_03_Der|Take 001|BaseLay
+  - first:
+      74: -1896927789780380402
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Cola|Take 001|BaseLayer
+  - first:
+      74: 5329085100771131437
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Espina_01|Take 001|BaseLayer
+  - first:
+      74: 1334288643403897625
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Espina_02|Take 001|BaseLayer
+  - first:
+      74: 8335432765871014069
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Espina_04|Take 001|BaseLayer
+  - first:
+      74: 3770037427787053916
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_General_Scale|Take 001|BaseLayer
+  - first:
+      74: 6169811174910709171
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Main|Take 001|BaseLayer
+  - first:
+      74: 386770582302666707
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Parpado_Inf_Der|Take 001|BaseLaye
+  - first:
+      74: -8895754918232307752
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Parpado_Inf_Izq.001|Take 001|Base
+  - first:
+      74: 1632483750393625397
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Parpado_Inf_Izq|Take 001|BaseLaye
+  - first:
+      74: -8226857534075786845
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:CTRL_Parpado_Sup_Izq|Take 001|BaseLaye
+  - first:
+      74: 3730013981569990524
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:GEO_Ojo_Der|Take 001|BaseLayer
+  - first:
+      74: -2663602533073625678
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:GEO_Ojo_Izq|Take 001|BaseLayer
+  - first:
+      74: -7412293452580008660
+    second: GuarupayaRig|Rig_Pez_Guarupaya_Catoon:TRL_Aleta_Sup_03_Izq|Take 001|BaseLaye
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pez
+    second: {fileID: 2100000, guid: 0c2d1f12effd79548b64c700bef649d1, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Guarupaya_Shdr_Guayupara_cuerpo_BaseColor.1001
+    second: {fileID: 2800000, guid: 5194b52397a0a904b846032adb7630f5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Guarupaya_Shdr_Guayupara_cuerpo_Normal.1001
+    second: {fileID: 2800000, guid: ae5b749f28871264ab05ae9c01309a9a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Guarupaya_Shdr_Guayupara_cuerpo_Roughness.1001
+    second: {fileID: 2800000, guid: cbe1a1bcf592754469d964ba3fa48e86, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: GuarupayaNada
+      takeName: GuarupayaRig|GuarupayaRigAction.001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

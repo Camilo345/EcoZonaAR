@@ -15,7 +15,7 @@ C:/Users/Daniel/Documents/GitHub/EcoZonaAR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51403
+52839
 Successfully changed project path to: C:/Users/Daniel/Documents/GitHub/EcoZonaAR
 C:/Users/Daniel/Documents/GitHub/EcoZonaAR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,65 +47,368 @@ C:/Users/Daniel/Documents/GitHub/EcoZonaAR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 779.43 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 4.69 ms.
+Refreshing native plugins compatible for Editor in 208.35 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 4.15 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Daniel/Documents/GitHub/EcoZonaAR/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a6)
-    Vendor:   Intel
-    VRAM:     8044 MB
-    Driver:   30.0.101.1298
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3598
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.026737 seconds.
+Registered in 0.006005 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
-Native extension for iOS target not found
 [usbmuxd] Listen thread started
+Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1785.65 ms, found 7 plugins.
-Preloading 2 native plugins for Editor in 0.28 ms.
+Refreshing native plugins compatible for Editor in 200.45 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.392 seconds
+- Completed reload, in  1.032 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6393ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (1033ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (5465ms)
-			LoadAssemblies (119ms)
+		EndReloadAssembly (770ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1781ms)
+			SetupTypeCache (164ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (233ms)
-			SetupLoadedEditorAssemblies (2734ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (489ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (185ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1786ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (668ms)
-				ProcessInitializeOnLoadMethodAttributes (89ms)
+				InitializePlatformSupportModulesInManaged (97ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (201ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.018605 seconds.
-Android Extension - Scanning For ADB Devices 6761 ms
+Registered in 0.012479 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Daniel\Documents\GitHub\EcoZonaAR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 167.17 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.092 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2093ms)
+		BeginReloadAssembly (264ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (143ms)
+		EndReloadAssembly (1685ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (495ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (914ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (167ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (465ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 7 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 6215 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (2.0 MB). Loaded Objects now: 6954.
+Memory consumption went from 284.2 MB to 282.2 MB.
+Total: 6.443500 ms (FindLiveObjects: 0.510400 ms CreateObjectMapping: 0.489800 ms MarkObjects: 4.828100 ms  DeleteObjects: 0.613600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31750.072528 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/baum ld2 mobile.prefab
+  artifactKey: Guid(8b435505f5ada9548b1ef3763156f9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/baum ld2 mobile.prefab using Guid(8b435505f5ada9548b1ef3763156f9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2131f81b1989545f09d06af3aaa0749d') in 0.423086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4
+  artifactKey: Guid(7601b029059e0b146bb446234b3c0c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4 using Guid(7601b029059e0b146bb446234b3c0c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952e4539c23b05f486747529d24b6e87') in 0.013203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/baum ld1 mobile.prefab
+  artifactKey: Guid(e4d4610072adce2459c33af573919a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/baum ld1 mobile.prefab using Guid(e4d4610072adce2459c33af573919a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d292f6872af1441f8a048cc83289c9') in 0.078025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/sh_catWorkBoot_albedo.jpeg
+  artifactKey: Guid(83ce31f280a6d2f4b972a0360620280d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/sh_catWorkBoot_albedo.jpeg using Guid(83ce31f280a6d2f4b972a0360620280d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a40c45f8ecd85b2b6c7a0f496487b2') in 0.080307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/young_lightskinned_male_diffuse2.png
+  artifactKey: Guid(4e633bea5f0ff624eabd72d449742ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/young_lightskinned_male_diffuse2.png using Guid(4e633bea5f0ff624eabd72d449742ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b647653022d7b82044761e54b4d425d2') in 0.061117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/Bata_Diffuse.png
+  artifactKey: Guid(bef3dcfc70f28f44fa928000694add80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/Bata_Diffuse.png using Guid(bef3dcfc70f28f44fa928000694add80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9b5988f41fb572f023f27af7889f69') in 0.026909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/baum ld0 mobile.prefab
+  artifactKey: Guid(c1d2b256331939a4593ca8da0ab96e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/baum ld0 mobile.prefab using Guid(c1d2b256331939a4593ca8da0ab96e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2abeeef5087ec1f03d61864570612b6') in 0.047898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1080.013091 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/Terreno4_diff.png
+  artifactKey: Guid(207905b983c10874ab50782278092a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/Terreno4_diff.png using Guid(207905b983c10874ab50782278092a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c95c6bd070a5ff84e7c4d0add6433eb') in 0.077634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.069524 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/Materials
+  artifactKey: Guid(1d395ad7c678d6442bfaeb86edbf3373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/Materials using Guid(1d395ad7c678d6442bfaeb86edbf3373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9addaa25b829c69fc9ad99797f62206') in 0.015720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.112854 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/Materials/OC56_Bark03_dif_su.mat
+  artifactKey: Guid(da96d378de781c74a811ee0a5faeac67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/Materials/OC56_Bark03_dif_su.mat using Guid(da96d378de781c74a811ee0a5faeac67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f0e8a91c62c653900808e0fbe228a6') in 0.079907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/Materials/OC56_Leaf01Back_dif_su.mat
+  artifactKey: Guid(de4c010154d284849b060c1a4a4ad110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/Materials/OC56_Leaf01Back_dif_su.mat using Guid(de4c010154d284849b060c1a4a4ad110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acb3d213689dae01918add136660c50') in 0.093442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.720179 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/Materiales/Bata1.mat
+  artifactKey: Guid(dca04ef3487e30f468f9d2acbad914fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/Materiales/Bata1.mat using Guid(dca04ef3487e30f468f9d2acbad914fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f0bec28b53f41632dd260695f4bcae') in 0.083298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/Materiales/Isla2Rio.mat
+  artifactKey: Guid(ae90501b09944364aa5106acfe0af392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/Materiales/Isla2Rio.mat using Guid(ae90501b09944364aa5106acfe0af392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7b7e4f4dad1f57e8fb46dd8d7d256a') in 0.039316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/Materiales/Pantalon1.mat
+  artifactKey: Guid(cb2bdc44848f2c245b81cbeb8a52356b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/Materiales/Pantalon1.mat using Guid(cb2bdc44848f2c245b81cbeb8a52356b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54eac3173e0e44d294a4b216416de239') in 0.102068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/Materiales/humano1.mat
+  artifactKey: Guid(fe41ef9be7e12dd49a54c1c3c71f56f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/Materiales/humano1.mat using Guid(fe41ef9be7e12dd49a54c1c3c71f56f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2f890b4d22a85ec8d6cea34e304659') in 0.077184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.227506 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/Materiales/Isla2Rio.mat
+  artifactKey: Guid(ae90501b09944364aa5106acfe0af392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/Materiales/Isla2Rio.mat using Guid(ae90501b09944364aa5106acfe0af392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deba5ca9c14114be3c0e1ffbbd4c386c') in 0.080623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.480436 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip4/Materiales/Isla2Rio.mat
+  artifactKey: Guid(ae90501b09944364aa5106acfe0af392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip4/Materiales/Isla2Rio.mat using Guid(ae90501b09944364aa5106acfe0af392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be3e4e2314009da4eb02eae250cefd6') in 0.056219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.606148 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/BakedLitDepthNormalsPass.hlsl
+  artifactKey: Guid(9604e389528d04ae39fe05a7b4212172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/BakedLitDepthNormalsPass.hlsl using Guid(9604e389528d04ae39fe05a7b4212172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8f4435c14c515de68dd345618ab8a9') in 0.044951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/LitMetaPass.hlsl
+  artifactKey: Guid(dcf4e762d48204e33b575f8007e3d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/LitMetaPass.hlsl using Guid(dcf4e762d48204e33b575f8007e3d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8e7a4b6a7939acb75fbd86cc7951a0') in 0.020847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitForwardPass.hlsl
+  artifactKey: Guid(574332cc54d34b3b96cd214f5febe833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitForwardPass.hlsl using Guid(574332cc54d34b3b96cd214f5febe833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2d0d918aee00b8934ff90346e537a8') in 0.028365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001334 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/LitDepthNormalsPass.hlsl
+  artifactKey: Guid(d6641dcdedd1f422aa58ffec746e5342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/LitDepthNormalsPass.hlsl using Guid(d6641dcdedd1f422aa58ffec746e5342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d432bfebadb2dbdeab9a987121018c7') in 0.038342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/BakedLitMetaPass.hlsl
+  artifactKey: Guid(f31bf343921b848fa8e5cde15f1dbaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/BakedLitMetaPass.hlsl using Guid(f31bf343921b848fa8e5cde15f1dbaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232b93e476c88869d370e0f7cc88dc9e') in 0.025906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitInput.hlsl
+  artifactKey: Guid(e7ba75cc852b14b7f934978b5697bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitInput.hlsl using Guid(e7ba75cc852b14b7f934978b5697bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1d770a7799d8a2cfe67f7a6b248015') in 0.022346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitMetaPass.hlsl
+  artifactKey: Guid(ffc632d1e38ef4682807a89afb2b966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitMetaPass.hlsl using Guid(ffc632d1e38ef4682807a89afb2b966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e79a8d45604535e947e416612ec7f8a') in 0.017044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl
+  artifactKey: Guid(ad863d097888f42c6bcf419efb2946c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl using Guid(ad863d097888f42c6bcf419efb2946c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e566f3a98a80b5c758b61fd672fa7de') in 0.036395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitMetaPass.hlsl
+  artifactKey: Guid(138efaf7fb432134da44d5a4981a62ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitMetaPass.hlsl using Guid(138efaf7fb432134da44d5a4981a62ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c701b3c58d6726bb8b13e6bd943eab6e') in 0.020629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/LitGBufferPass.hlsl
+  artifactKey: Guid(92673cbb58cac8e4d8b5d044ce912dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/LitGBufferPass.hlsl using Guid(92673cbb58cac8e4d8b5d044ce912dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e11c413a3a6705f186f235a2b32848d') in 0.016197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitDepthNormalsPass.hlsl
+  artifactKey: Guid(a63ccbef6bed14464a35b8a62ee9b775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitDepthNormalsPass.hlsl using Guid(a63ccbef6bed14464a35b8a62ee9b775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ba2640dd413fdcb8f87d2e74a4af9f') in 0.097152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.517526 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip6/Escena6.fbx
+  artifactKey: Guid(a2dbb97ef8a272143976e256ed109f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip6/Escena6.fbx using Guid(a2dbb97ef8a272143976e256ed109f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5ee949e0a0906e9bc90e7180097615') in 0.108007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 621.797288 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip3/Cascada.fbx
+  artifactKey: Guid(114b57b4df8349f4094ee32ed2bbea21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip3/Cascada.fbx using Guid(114b57b4df8349f4094ee32ed2bbea21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ff599541c6896cd7ff55e8c89e9618') in 0.104246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip3
+  artifactKey: Guid(03b3211615b6ccc4c9cb0226230dc717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip3 using Guid(03b3211615b6ccc4c9cb0226230dc717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851612f5faa37832216a7034c1b9ecee') in 0.022498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.856813 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip3/Terreno3_diff.png
+  artifactKey: Guid(c90557e8649b3634fa72f037dbdd9cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip3/Terreno3_diff.png using Guid(c90557e8649b3634fa72f037dbdd9cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5082f4f311852b5671c00b6cd26ce18') in 0.112824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.257915 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip3/Cascada.fbx
+  artifactKey: Guid(114b57b4df8349f4094ee32ed2bbea21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip3/Cascada.fbx using Guid(114b57b4df8349f4094ee32ed2bbea21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc706a8e34ab8ad60b4eef561f1d190') in 0.097879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.544174 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip3/Cascada.fbx
+  artifactKey: Guid(114b57b4df8349f4094ee32ed2bbea21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip3/Cascada.fbx using Guid(114b57b4df8349f4094ee32ed2bbea21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfa5d2addb0c35f9c0b9d6bf6192048') in 0.104876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 296.049131 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Building_Exterior.mat
+  artifactKey: Guid(ea0b1bdd5c6298c46b52c39276c511c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Building_Exterior.mat using Guid(ea0b1bdd5c6298c46b52c39276c511c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e98a97c8bdfae95a971bac2fcace49') in 0.148790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043889 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Water_Basin_Round.mat
+  artifactKey: Guid(854a939a44570d54aadddb0dcd84ccf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Water_Basin_Round.mat using Guid(854a939a44570d54aadddb0dcd84ccf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00801afdd00975b92ffcda02ce265a87') in 0.066384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Pipe.mat
+  artifactKey: Guid(24ca4261518d8474587544827a6ea451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Pipe.mat using Guid(24ca4261518d8474587544827a6ea451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcd9391e678b0e3c7337ec716c7ac50') in 0.045405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Fence.mat
+  artifactKey: Guid(5b120f692c2b1e5458d4f65435c4c57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Fence.mat using Guid(5b120f692c2b1e5458d4f65435c4c57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe7e8a2c13adf34e9d6c55bcdb5d9fd') in 0.031421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Silo_Paint.mat
+  artifactKey: Guid(248b446687f976a419c02608795ac8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Silo_Paint.mat using Guid(248b446687f976a419c02608795ac8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea75e7c0907e3e872bb8f569f03e178') in 0.038621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Water_Semi_2_filtered.mat
+  artifactKey: Guid(85fd4c31cda35494481be960dd894b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Water_Semi_2_filtered.mat using Guid(85fd4c31cda35494481be960dd894b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de7b72fd700dd08c1c7c36c10ad94ed') in 0.036607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.081268 seconds.
+  path: Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Grass.mat
+  artifactKey: Guid(746f1b80704a95a4da06813ec437b15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maqueta/AR_Agua/Modelos/Clip5/Materials/Grass.mat using Guid(746f1b80704a95a4da06813ec437b15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec4bd80ac3496abeecd310a56e21a02') in 0.054666 seconds 

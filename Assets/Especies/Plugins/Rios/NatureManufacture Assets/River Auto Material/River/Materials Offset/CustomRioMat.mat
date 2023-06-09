@@ -253,8 +253,8 @@ Material:
     - _CascadesNoisePower: 2.71
     - _CastShadows: 1
     - _ChromaticAberration: 0.1
-    - _CleanFalloffMultiply: 0.35
-    - _CleanFalloffPower: 0.25
+    - _CleanFalloffMultiply: 25.8
+    - _CleanFalloffPower: 0.13
     - _ClearWaterFalloff: 10
     - _Cull: 0
     - _CullMode: 0
@@ -270,8 +270,8 @@ Material:
     - _DoubleSidedEnable: 1
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 10
-    - _EdgeFalloffMultiply: 96.01
-    - _EdgeFalloffPower: 1.3
+    - _EdgeFalloffMultiply: 155.26
+    - _EdgeFalloffPower: 1.1
     - _EdgeLength: 25
     - _FarDistortion: 1
     - _FarDistortionDistance: 40
@@ -306,7 +306,7 @@ Material:
     - _FoamWavePower: 3.91
     - _FoamWavePowerr: 2
     - _Foamfalloff: -4
-    - _GlobalTiling: 1.3
+    - _GlobalTiling: 1
     - _GlossyReflections: 1
     - _Keyword1: 1
     - _Keyword2: 1
@@ -337,7 +337,7 @@ Material:
     - _SlowCascadeSpeed: 0.15
     - _SlowNormalScale: 0.3
     - _SlowWaterSpeed: 0.5
-    - _SlowWaterTessScale: 0.02
+    - _SlowWaterTessScale: 0.004
     - _SlowWaterTranslucencyMultiply: 1
     - _SmallCascadeAngle: 69.9
     - _SmallCascadeAngleFalloff: 80
@@ -349,7 +349,7 @@ Material:
     - _SmallCascadeNormalInfluence: 20
     - _SmallCascadeNormalScale: 0.5
     - _SmallCascadeSmoothness: 0
-    - _SmallCascadeSpecular: 0.8
+    - _SmallCascadeSpecular: 0.829
     - _SmallCascadeSpeed: 4
     - _SmallCascadeTranslucencyMultiply: 1
     - _SmallCascadeWaterNormalScale: 0.69
@@ -450,10 +450,10 @@ Material:
     - _NoiseSpeed: {r: 0.7, g: 0.7, b: 0, a: 0}
     - _NoiseTiling: {r: 2, g: 2, b: 0, a: 0}
     - _NoiseTling: {r: 4, g: 4, b: 0, a: 0}
-    - _ShalowColor: {r: 0.1666073, g: 0.6629553, b: 0.754717, a: 0}
+    - _ShalowColor: {r: 0.33193305, g: 0.649185, b: 0.6981132, a: 0}
     - _SlowCascadeColor: {r: 20, g: 20, b: 20, a: 0}
-    - _SlowWaterMixSpeed: {r: 0.002, g: 0.002, b: 0, a: 0}
-    - _SlowWaterSpeed: {r: 0.27, g: 0.58, b: 0, a: 0}
+    - _SlowWaterMixSpeed: {r: 0.002, g: 0, b: 0, a: 0}
+    - _SlowWaterSpeed: {r: 0.27, g: 2, b: 0, a: 0}
     - _SlowWaterTiling: {r: 2, g: 2, b: 0, a: 0}
     - _SlowWaterTling: {r: 3, g: 3, b: 0, a: 0}
     - _SmallCascadeColor: {r: 20, g: 20, b: 20, a: 0}

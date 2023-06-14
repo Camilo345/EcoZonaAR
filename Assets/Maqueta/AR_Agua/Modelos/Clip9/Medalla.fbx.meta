@@ -3,7 +3,17 @@ guid: 99f87a56ed6de7741b0755dfd1fee034
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold
+    second: {fileID: 2100000, guid: 13050928c3d32b94a871ed8829837fed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Strap
+    second: {fileID: 2100000, guid: d4d4acd00134ed140ab7fd4b8e41429b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

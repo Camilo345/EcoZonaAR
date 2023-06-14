@@ -53,16 +53,18 @@ public class Screenshoot : MonoBehaviour
         PhotoImage.GetComponent<Image>().overrideSprite = sprite;
         PhotoRawImage.texture = rt;
 
-        string filePath = Path.Combine(Application.temporaryCachePath, "shared.png");
-        File.WriteAllBytes(filePath, texture.EncodeToPNG());
-
-
-        email.enviarCorreo(filePath);
+    
         panel.SetActive(true);
        
         string name = "ScreenShoot_AR" + System.DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss")+".png";
         // string filePath = Path.Combine(GetAndroidExternalStoragePath(), name);
         //  File.WriteAllBytes(filePath, texture.EncodeToPNG());
+
+        string filePath = Path.Combine(Application.temporaryCachePath, name+".png");
+        File.WriteAllBytes(filePath, texture.EncodeToPNG());
+
+
+        email.enviarCorreo(filePath);
         NativeGallery.SaveImageToGallery(texture, "Fotos Animales Ecopetrol", name);
       //  Destroy(texture);
     }
@@ -139,28 +141,6 @@ public class Screenshoot : MonoBehaviour
         else
             return sprite.texture;
     }
-
-    Texture2D CalculateTexture(int h, int w, float r, float cx, float cy, Texture2D sourceTex)
-    {
-        Color[] c = sourceTex.GetPixels(0, 0, sourceTex.width, sourceTex.height);
-        Texture2D b = new Texture2D(h, w);
-        for (int i = 0; i < (h * w); i++)
-        {
-            int y = Mathf.FloorToInt(((float)i) / ((float)w));
-            int x = Mathf.FloorToInt(((float)i - ((float)(y * w))));
-            if (r * r >= (x - cx) * (x - cx) + (y - cy) * (y - cy))
-            {
-                b.SetPixel(x, y, c[i]);
-            }
-            else
-            {
-                b.SetPixel(x, y, Color.clear);
-            }
-        }
-        b.Apply();
-        return b;
-    }
-
     public void closePanel()
     {
         Debug.Log("d");

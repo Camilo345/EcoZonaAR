@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16
+  controlID: 17
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 453.59998
     height: 730.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -92,10 +92,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 279.2
+    width: 300
     height: 485.6
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 18
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
+  controlID: 19
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,9 +266,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 279.2
+    x: 300
     y: 0
-    width: 803.2
+    width: 782.4
     height: 485.6
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -558,22 +558,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Especies/infoAnimales/resumen
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 68
   m_LastFolders:
-  - Assets/Especies/infoAnimales/resumen
+  - Assets/Scenes
   m_LastFoldersGridSize: 68
   m_LastProjectPath: D:\Users\Acer\Documents\Proyectos\ecopetrol\EcoZonaAR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 223}
-    m_SelectedIDs: 64c30000
-    m_LastClickedID: 50020
-    m_ExpandedIDs: 0000000046790000487900004a7900004c7900004e79000050790000527900005479000056790000587900005a7900005c7900005e790000607900006279000064790000667900006a7900006c7900003a7b00003e7b0000567b00005a7b0000b483050000ca9a3b
+    scrollPos: {x: 0, y: 887.80005}
+    m_SelectedIDs: aea50000
+    m_LastClickedID: 42414
+    m_ExpandedIDs: 0000000014a5000016a5000018a500001aa500001ca500001ea5000020a5000022a5000024a5000028a500002aa500002ca500002ea5000030a5000034a5000036a5000038a500003aa500003ca5000042a5000086a50000f8bc040000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -601,7 +601,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000046790000487900004a7900004c7900004e79000050790000527900005479000056790000587900005a7900005c7900005e79000060790000627900006479000066790000687900006a7900006c790000
+    m_ExpandedIDs: 0000000014a5000016a5000018a500001aa500001ca500001ea5000020a5000022a5000024a5000026a5000028a500002aa500002ca500002ea5000030a5000032a5000034a5000036a5000038a500003aa500003ca500003ea5000040a5000042a50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -653,7 +653,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 37.80002}
     m_GridSize: 68
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 246
@@ -722,7 +722,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 278.2
+    width: 299
     height: 464.6
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -731,23 +731,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d2cf0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 4e8af6ffac77f9ff7aa5f9ff94ddf9fffa28faff906afaff0aa2fcff58cdfcffc4fcfcff4e3dffffc268ffffac6effffd0abffff00fbffffd2760000207700004c77000092770000b2770000f27700001a7800003c780000947800005e910000289200001e93000088cd00001ad300003ed70000eeee0400b0f0040090f4040054f50400e2f9040006fe04008a1905009e190500046d0500266d0500ce6d0500a66e05001276050042760500bc770500ae7b0500547f0500e2810500048205005a4e0a00944e0a009e4e0a00aa4e0a00b64e0a00d44e0a00e04e0a00e64e0a00004f0a00064f0a000c4f0a00184f0a00a04f0a00a64f0a00c64f0a00de4f0a0012500a002a500a0056500a00a0500a00dc500a00e2500a00f8500a00
+      m_SelectedIDs: 3cdf0400
+      m_LastClickedID: 319292
+      m_ExpandedIDs: fa09fdff7038fdff5066fdff7894fdfffc95fdfffecfffff00fbffff30a600008eaa0000bec90400d4ca0400ead8040072dd040028df0400c8e004001ee20400d8e304006ce40400
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: texTnmbre
-        m_OriginalName: texTnmbre
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 37640
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -778,9 +778,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 279.2
+    x: 300
     y: 73.6
-    width: 801.2
+    width: 780.4
     height: 464.6
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -983,9 +983,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.0002778, y: 0.16939679, z: -0.028217852}
+    m_Target: {x: 0.099098206, y: 0.2191534, z: -0.43311024}
     speed: 2
-    m_Value: {x: -1.0002784, y: 0.16939679, z: -0.028217848}
+    m_Value: {x: 0.095266275, y: 0.219018, z: -0.43218166}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1032,13 +1032,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.42276868, y: 0.0032559633, z: -0.0015200855, w: -0.9062334}
+    m_Target: {x: -0.3139834, y: -0.025067825, z: 0.008292147, w: -0.949064}
     speed: 2
-    m_Value: {x: -0.4227676, y: 0.0032559552, z: -0.0015200817, w: -0.9062311}
+    m_Value: {x: -0.3139698, y: -0.026491323, z: 0.00876309, w: -0.9490228}
   m_Size:
-    m_Target: 0.3198595
+    m_Target: 3.04621
     speed: 2
-    m_Value: 0.33493143
+    m_Value: 3.1897488
   m_Ortho:
     m_Target: 0
     speed: 2

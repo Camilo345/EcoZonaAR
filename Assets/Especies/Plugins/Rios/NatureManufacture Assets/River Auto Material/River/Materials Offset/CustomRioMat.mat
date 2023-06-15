@@ -337,9 +337,9 @@ Material:
     - _SlowCascadeSpeed: 0.15
     - _SlowNormalScale: 0.3
     - _SlowWaterSpeed: 0.5
-    - _SlowWaterTessScale: 0.02
+    - _SlowWaterTessScale: 0
     - _SlowWaterTranslucencyMultiply: 1
-    - _SmallCascadeAngle: 69.9
+    - _SmallCascadeAngle: 90
     - _SmallCascadeAngleFalloff: 80
     - _SmallCascadeFalloff: 80
     - _SmallCascadeFlowUVRefreshSpeed: 0.004
@@ -411,8 +411,8 @@ Material:
     - _WaterTranslucencyPower: 0.55
     - _WaterTransparency: 0
     - _WaveTranslucencyFallOffDistance: 30
-    - _WaveTranslucencyHardness: 2.18
-    - _WaveTranslucencyMultiply: 0.1
+    - _WaveTranslucencyHardness: 6.31
+    - _WaveTranslucencyMultiply: 3.76
     - _WaveTranslucencyPower: 2.95
     - _WavesVertexOffsetALPHA: 0
     - _WorkflowMode: 0

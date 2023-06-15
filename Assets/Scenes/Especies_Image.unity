@@ -690,6 +690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 122102972}
   - component: {fileID: 122102973}
+  - component: {fileID: 122102974}
   m_Layer: 0
   m_Name: Animal
   m_TagString: Untagged
@@ -727,6 +728,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 10
   dir: {x: 0, y: 1, z: 0}
+--- !u!95 &122102974
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122102971}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d06065dfc2a4f0241848c5cd91a400a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &122873409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1186,6 +1207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 302350166}
   - component: {fileID: 302350167}
+  - component: {fileID: 302350168}
   m_Layer: 0
   m_Name: Animal
   m_TagString: Untagged
@@ -1216,13 +1238,33 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 302350165}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 564dc8ab52fcd1442b47a2e8eacf8bd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 10
   dir: {x: 0, y: 1, z: 0}
+--- !u!95 &302350168
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302350165}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d06065dfc2a4f0241848c5cd91a400a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &303914945
 GameObject:
   m_ObjectHideFlags: 0
@@ -1451,7 +1493,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &313958468
 Animator:
   serializedVersion: 4
@@ -1499,6 +1541,7 @@ GameObject:
   m_Component:
   - component: {fileID: 348606498}
   - component: {fileID: 348606499}
+  - component: {fileID: 348606500}
   m_Layer: 0
   m_Name: Animal
   m_TagString: Untagged
@@ -1529,13 +1572,33 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348606497}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 564dc8ab52fcd1442b47a2e8eacf8bd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 10
   dir: {x: 0, y: 1, z: 0}
+--- !u!95 &348606500
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348606497}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d06065dfc2a4f0241848c5cd91a400a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &353831380
 GameObject:
   m_ObjectHideFlags: 0
@@ -2131,6 +2194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 446614570}
   - component: {fileID: 446614571}
+  - component: {fileID: 446614572}
   m_Layer: 0
   m_Name: Animal
   m_TagString: Untagged
@@ -2161,13 +2225,33 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 446614569}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 564dc8ab52fcd1442b47a2e8eacf8bd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 10
   dir: {x: 0, y: 0, z: 1}
+--- !u!95 &446614572
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446614569}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d06065dfc2a4f0241848c5cd91a400a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &460442563
 GameObject:
   m_ObjectHideFlags: 0
@@ -3060,6 +3144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 728795800}
   - component: {fileID: 728795801}
+  - component: {fileID: 728795802}
   m_Layer: 0
   m_Name: Animal
   m_TagString: Untagged
@@ -3090,13 +3175,33 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 728795799}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 564dc8ab52fcd1442b47a2e8eacf8bd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 10
   dir: {x: 0, y: 0, z: 1}
+--- !u!95 &728795802
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728795799}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d06065dfc2a4f0241848c5cd91a400a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &733738667
 GameObject:
   m_ObjectHideFlags: 0
@@ -3107,6 +3212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 733738668}
   - component: {fileID: 733738669}
+  - component: {fileID: 733738670}
   m_Layer: 0
   m_Name: Animal
   m_TagString: Untagged
@@ -3137,13 +3243,33 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 733738667}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 564dc8ab52fcd1442b47a2e8eacf8bd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 10
   dir: {x: 0, y: 1, z: 0}
+--- !u!95 &733738670
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733738667}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d06065dfc2a4f0241848c5cd91a400a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &764646356
 GameObject:
   m_ObjectHideFlags: 0
@@ -3557,6 +3683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 867564516}
   - component: {fileID: 867564517}
+  - component: {fileID: 867564518}
   m_Layer: 0
   m_Name: Animal
   m_TagString: Untagged
@@ -3587,13 +3714,33 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 867564515}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 564dc8ab52fcd1442b47a2e8eacf8bd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 10
   dir: {x: 0, y: 1, z: 0}
+--- !u!95 &867564518
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867564515}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d06065dfc2a4f0241848c5cd91a400a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &910349185
 GameObject:
   m_ObjectHideFlags: 0
@@ -3604,6 +3751,7 @@ GameObject:
   m_Component:
   - component: {fileID: 910349186}
   - component: {fileID: 910349187}
+  - component: {fileID: 910349188}
   m_Layer: 0
   m_Name: Animal
   m_TagString: Untagged
@@ -3634,13 +3782,33 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910349185}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 564dc8ab52fcd1442b47a2e8eacf8bd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 10
   dir: {x: 0, y: 1, z: 0}
+--- !u!95 &910349188
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910349185}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d06065dfc2a4f0241848c5cd91a400a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &940456955
 GameObject:
   m_ObjectHideFlags: 0
@@ -3651,6 +3819,7 @@ GameObject:
   m_Component:
   - component: {fileID: 940456956}
   - component: {fileID: 940456957}
+  - component: {fileID: 940456958}
   m_Layer: 0
   m_Name: Animal
   m_TagString: Untagged
@@ -3681,13 +3850,33 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940456955}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 564dc8ab52fcd1442b47a2e8eacf8bd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 10
   dir: {x: 0, y: 1, z: 0}
+--- !u!95 &940456958
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940456955}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d06065dfc2a4f0241848c5cd91a400a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &945313979
 GameObject:
   m_ObjectHideFlags: 0
@@ -3748,8 +3937,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Estudio\nfotogr\xE1fico"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 802d5086e4c5cc348aee9dc0c5f50b40, type: 2}
-  m_sharedMaterial: {fileID: -8024727661927151872, guid: 802d5086e4c5cc348aee9dc0c5f50b40,
+  m_fontAsset: {fileID: 11400000, guid: faaa68863cc3ec1429b9c39687309e69, type: 2}
+  m_sharedMaterial: {fileID: 4925031486172393719, guid: faaa68863cc3ec1429b9c39687309e69,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -3780,7 +3969,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -5607,6 +5796,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1397805817}
   - component: {fileID: 1397805818}
+  - component: {fileID: 1397805819}
   m_Layer: 0
   m_Name: Animal
   m_TagString: Untagged
@@ -5637,13 +5827,33 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397805816}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 564dc8ab52fcd1442b47a2e8eacf8bd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 10
   dir: {x: 0, y: 1, z: 0}
+--- !u!95 &1397805819
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397805816}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d06065dfc2a4f0241848c5cd91a400a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1429823516
 GameObject:
   m_ObjectHideFlags: 0
@@ -5654,6 +5864,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1429823517}
   - component: {fileID: 1429823518}
+  - component: {fileID: 1429823519}
   m_Layer: 0
   m_Name: Animal
   m_TagString: Untagged
@@ -5684,13 +5895,33 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1429823516}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 564dc8ab52fcd1442b47a2e8eacf8bd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 10
   dir: {x: 0, y: 1, z: 0}
+--- !u!95 &1429823519
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429823516}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d06065dfc2a4f0241848c5cd91a400a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1464363779
 GameObject:
   m_ObjectHideFlags: 0
@@ -6289,6 +6520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1583506490}
   - component: {fileID: 1583506491}
+  - component: {fileID: 1583506492}
   m_Layer: 0
   m_Name: Animal
   m_TagString: Untagged
@@ -6319,13 +6551,33 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1583506489}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 564dc8ab52fcd1442b47a2e8eacf8bd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 10
   dir: {x: 0, y: 1, z: 0}
+--- !u!95 &1583506492
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583506489}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d06065dfc2a4f0241848c5cd91a400a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1605099125
 GameObject:
   m_ObjectHideFlags: 0
@@ -8656,7 +8908,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &2123762475
 Animator:
   serializedVersion: 4

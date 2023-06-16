@@ -18,6 +18,13 @@ public class CambiarEscena : MonoBehaviour
     }
    public void cambiarEscena(int escena)
     {
-        SceneManager.LoadScene(escena);
+        StartCoroutine(cargarEscena(escena));
+       // SceneManager.LoadScene(escena);
+    }
+
+    IEnumerator cargarEscena(int escena)
+    {
+        yield return new WaitForEndOfFrame();
+        SceneManager.LoadSceneAsync(escena);
     }
 }

@@ -27,24 +27,25 @@ public class AparecerAutos1 : MonoBehaviour
     void activarCarro1()
     {
         bool salir = false;
-        while (!salir)
+        /*while (!salir)
         {
             int r = Random.Range(0, listaCarros1.Count);
             if (!listaCarros1[r].activeInHierarchy)
             {
-                Debug.Log(r);
+              
                 listaCarros1[r].SetActive(true);
                 salir = true;
             }
-        }
-        /*for(int i = 0; i < listaCarros1.Count; i++)
+
+        }*/
+        for(int i = 0; i < listaCarros1.Count; i++)
         {
             if (!listaCarros1[i].activeInHierarchy)
             {
-                
+                listaCarros1[i].SetActive(true);
                 break;
             }
-        }*/
+        }
     }
 
     void desactivarAutos1(List<GameObject> lista)

@@ -14,11 +14,11 @@ public class SecuenciaAgua : MonoBehaviour
     private void OnEnable()
     {
        
-        rellenarListaAudios();
+       // rellenarListaAudios();
         desactivarClips();
         clips[index].SetActive(true);
         audios[index].Play();
-        Invoke("spawnAndContinue", clips[index].GetComponent<AudioSource>().clip.length);
+        Invoke("spawnAndContinue", audios[index].clip.length);
         index++;
     }
 

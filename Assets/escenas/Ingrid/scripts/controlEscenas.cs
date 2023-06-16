@@ -72,4 +72,12 @@ public class controlEscenas : MonoBehaviour
         escenaActual = 0;
         audioActual = 0;
     }
+
+    public void reiniciarCiudad()
+    {
+        desactivarEscenas(false);
+     
+        escenaActual = 0;
+        audioActual = 0;
+    }
 }

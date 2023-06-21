@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/02_AR_Scene.unity
     guid: 311cb90927712aa4f8170e2f81fcfe40
+  - enabled: 1
+    path: Assets/Scenes/menuCarga.unity
+    guid: 762b9417dfffb5b46b9716d8721dd76d
   m_configObjects: {}

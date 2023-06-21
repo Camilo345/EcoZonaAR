@@ -18,8 +18,9 @@ public class CambiarEscena : MonoBehaviour
     }
    public void cambiarEscena(int escena)
     {
-        StartCoroutine(cargarEscena(escena));
-       // SceneManager.LoadScene(escena);
+        //StartCoroutine(cargarEscena(escena));
+        PlayerPrefs.SetInt("escena", escena);
+        SceneManager.LoadScene(5);
     }
 
     IEnumerator cargarEscena(int escena)

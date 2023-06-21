@@ -31015,7 +31015,7 @@ MonoBehaviour:
     </b> Tortuga morrocoy o  \nMorrocoy sabanero "
   - "<b>Nombre cient\xEDfico:</b> Burhinus bistriatus\n<b>Nombre com\xFAn: </b> Alcarav\xE1n "
   - "<b>Nombre cient\xEDfico:</b> Cetopsis orinoco\n<b>Nombre com\xFAn: </b> Bagre
-    Ballena "
+    Gato "
   - "<b>Nombre cient\xEDfico:</b> Eudocimus ruber \n<b>Nombre com\xFAn: </b> Corocora"
   - "<b>Nombre cient\xEDfico:</b> Tapirus terrestris\n<b>Nombre com\xFAn: </b> Danta,
     Tapir"
@@ -31028,7 +31028,7 @@ MonoBehaviour:
   - "<b>Nombre cient\xEDfico:</b> Hydrochoerus hydrochaeris\n<b>Nombre com\xFAn:
     </b>Chig\xFCiro o Capibara"
   - "<b>Nombre cient\xEDfico:</b> Myrmecophaga tridactyla \n<b>Nombre com\xFAn: </b>
-    Oso palmero, oso\r hormiguero."
+    Oso palmero, oso\r \nhormiguero."
   infoElements:
   - " Mam\xEDfero de mediano tama\xF1o con una amplia distribuci\xF3n en el continente
     americano. Se alimenta de invertebrados y peque\xF1os vertebrados como ranas,
@@ -31043,44 +31043,46 @@ MonoBehaviour:
     utilizada como alimento en algunas  comunidades ind\xEDgenas y como mascota en 
     regiones del Caribe y zonas Andinas."
   - "Especie com\xFAn en los llanos  orientales, generalmente en \xE1reas abiertas 
-    de pasturas, con patas largas y ojos  grandes y amarillos. \n\nGeneralmente se 
-    observan solitarias, nocturnas y con capacidad  de correr velozmente en cortas
+    de pasturas, con patas largas y ojos  grandes <align=left> y amarillos. </align>\n\nGeneralmente
+    se  observan solitarias, nocturnas y con capacidad  de correr velozmente en cortas
     distancias."
-  - "Pez gato de agua dulce, los machos pueden llegar a medir\_ 9,4 cm de longitud
-    total."
+  - "Es un pez de agua dulce y de clima tropical. Los machos alcanzan a medir 9,4
+    cm de longitud total. Habita principalmente en la cuenca del r\xEDo Orinoco,
+    en Venezuela"
   - "Se distribuye en los llanos orientales predominando en sabanas junto a cuerpos
-    de  agua que conforman los bosques de galer\xEDa.  \n\nEs una especie observada
-    en grandes grupos de 30 o m\xE1s individuos y con un comportamiento gregario
-    para el cuidado de juveniles y b\xFAsqueda de alimentaci\xF3n."
+    de  agua que conforman los  <align=left>bosques de galer\xEDa. </align>\n\n\nEs
+    una especie observada en grandes grupos de 30 o m\xE1s individuos y con un comportamiento
+    gregario para el cuidado de juveniles y b\xFAsqueda de alimentaci\xF3n."
   - "\rLa danta es una especie con amplia distribuci\xF3n de tierras bajas de Colombia,
     considerado el mayor mam\xEDfero terrestre de Sudam\xE9rica, en ambientes boscosos
     y cerca a cuerpo de agua. Esta catalogada como Vulnerable dentro de la lista
     roja de especies amenazadas, debido a la fragmentaci\xF3n de h\xE1bitats naturales
-    y caza ilegal.\n"
+    y<align=left> caza ilegal.</align>"
   - "Esta especie pertenece a la familia Characidae, en donde varias de sus  especies
     son com\xFAnmente llamadas  en la regi\xF3n de los llanos como Guarupayas.  Es
     una especie omn\xEDvora que puede alimentarse de insectos acu\xE1ticos como de 
     partes de plantas acu\xE1ticas como  semillas peque\xF1as, flores, y algunas
-    algas  filamentosas."
+    algas <align=left>filamentosas.</align>"
   - "Durante el d\xEDa es de piel blanca con ojos amarillos, mientras que en la noche
     su color es oscuro. Con las ventosas de sus 18 dedos se adhiere f\xE1cilmente
-    a las superficies."
+    a las <align=left>superficies.</align>"
   - "Es una especie que pertenece al grupo de \nmarsupiales y cuenta con una amplia
-    distribuci\xF3n de todo el continente americano y en todas las regiones a nivel
-    nacional. \n\nSu principal habito es de tipo nocturno y se encuentran en un nivel
-    intermedio dentro de las cadenas tr\xF3ficas teniendo a las aves rapaces y mam\xEDferos
-    grandes como principales depredadores. Su alimentaci\xF3n es omn\xEDvora y comen
-    desde peque\xF1os vertebrados e invertebrados como frutas, floresy otros vegetales."
+    distribuci\xF3n de todo el continente americano y en todas las regiones a nivel<align=left>
+    nacional.</align>\n\nSu principal habito es de tipo nocturno y se encuentran
+    en un nivel intermedio dentro de las cadenas tr\xF3ficas teniendo a las aves
+    rapaces y mam\xEDferos grandes como principales depredadores. Su alimentaci\xF3n
+    es omn\xEDvora y comen desde peque\xF1os vertebrados e invertebrados como frutas,
+    floresy otros vegetales."
   - "Tienen pelaje bastante corto (5-6 mm). Orejas del tama\xF1o mediano y los extremos
     son punteados."
   - "Una especie con distribuci\xF3n Sudamericana, habitando bosques y sabanas de
     la regi\xF3n de la Orinoquia, desde pasturas, herbazales  y cuerpos de agua.
     Es considerado el roedor m\xE1s grande del mundo con una  alimentaci\xF3n principalmente
     herb\xE1cea y un  fuerte objeto de caza por el hombre."
-  - "Posee un hocico alargado el cual es \radaptado para su alimentaci\xF3n y cola
-    \respesa. Sus patas delanteras son muy \rfuertes con grandes y afiladas u\xF1as
-    para\r buscar alimento en termiteros y como \rm\xE9todo de defensa ante los predadores
-    \rmayores como algunos felinos de la regi\xF3n."
+  - "Posee un hocico alargado el cual es \r\nadaptado para su alimentaci\xF3n y cola
+    \r\nespesa. Sus patas delanteras son muy \r\nfuertes con grandes y afiladas u\xF1as
+    para\r\n buscar alimento en termiteros y como \n\rm\xE9todo de defensa ante los
+    predadores\n \rmayores como algunos felinos \n<align=left>de la regi\xF3n.</align>\n"
   scaleFactor:
   - 0.6
   - 0.8
@@ -36053,7 +36055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 1716026266}
+  m_Material: {fileID: 1369170234}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -36210,7 +36212,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -12.2}
+  m_AnchoredPosition: {x: 0, y: -17.2}
   m_SizeDelta: {x: 89.66, y: 71.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1291974777
@@ -36233,11 +36235,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: " Es una especie que pertenece al grupo de marsupiales y cuenta con una
+  m_text: "Es una especie que pertenece al grupo de \nmarsupiales y cuenta con una
     amplia distribuci\xF3n de todo el continente americano y en todas las regiones
-    a nivel nacional. \n\nSu principal habito es de tipo nocturno y se encuentran
-    en un nivel intermedio dentro de las cadenas tr\xF3ficas teniendo a las aves
-    rapaces y mam\xEDferos grandes como principales depredadores. Su alimentaci\xF3n
+    a nivel<align=left> nacional.</align>\n\nSu principal habito es de tipo nocturno
+    y se encuentran en un nivel intermedio dentro de las cadenas tr\xF3ficas teniendo
+    a las aves rapaces y mam\xEDferos grandes como principales depredadores. Su alimentaci\xF3n
     es omn\xEDvora y comen desde peque\xF1os vertebrados e invertebrados como frutas,
     floresy otros vegetales."
   m_isRightToLeft: 0
@@ -37344,6 +37346,42 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1358640071}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1369170234
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI/RoundedCorners/RoundedCorners
+  m_Shader: {fileID: 4800000, guid: 0bd2ec5d73751e34a814274a454bec41, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _WidthHeightRadius: {r: 100, g: 100, b: 200, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1398620271 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c18b00012fcfc1942b28bd5f06c812e4,
@@ -39858,42 +39896,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1698283581}
   m_CullTransparentMesh: 1
---- !u!21 &1716026266
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: UI/RoundedCorners/RoundedCorners
-  m_Shader: {fileID: 4800000, guid: 0bd2ec5d73751e34a814274a454bec41, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _WidthHeightRadius: {r: 100, g: 100, b: 200, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1 &1726947469
 GameObject:
   m_ObjectHideFlags: 0

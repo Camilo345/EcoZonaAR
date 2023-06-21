@@ -8,7 +8,7 @@ using TMPro;
 
 public class ARChangeElementsController : MonoBehaviour
 {
-    
+
     public List<GameObject> elements;
     [TextArea(1, 20)]
     public List<string> nombreElements;
@@ -33,6 +33,11 @@ public class ARChangeElementsController : MonoBehaviour
         textInfo.text = infoElements[animal];
         elements[animal].SetActive(true);
 
+    }
+
+    private void Update()
+    {
+      
     }
 
     public void ActiveNextElement()

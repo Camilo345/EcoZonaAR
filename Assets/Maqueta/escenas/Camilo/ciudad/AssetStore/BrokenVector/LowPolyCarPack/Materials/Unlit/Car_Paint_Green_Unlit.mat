@@ -120,8 +120,8 @@ Material:
     - _ZTest: 4
     - _ZWrite: 1
     - _ZWriteControl: 0
-    - _pos: -0.39354688
-    - _pos2: -0.38026193
+    - _pos: -0.07249407
+    - _pos2: -0.09612209
     - _pos3Y: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
@@ -132,7 +132,7 @@ Material:
     - _Vector3: {r: 0, g: 0, b: 0, a: 0}
     - _pos1: {r: 0, g: 0, b: 0, a: 0}
     - _pos2: {r: 0, g: 0, b: 0, a: 0}
-    - _pos_1: {r: 0.00040000002, g: 0.2836, b: -0.381, a: 0}
+    - _pos_1: {r: 0.4065136, g: -0.17261043, b: -0.07871938, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &3588232921748653339
 MonoBehaviour:

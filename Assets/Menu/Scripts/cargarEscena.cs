@@ -27,7 +27,9 @@ public class cargarEscena : MonoBehaviour
 
         while (!loadAsyinc.isDone)
         {
-            porcentaje = loadAsyinc.progress * 100 / 0.9f;
+            //  porcentaje = loadAsyinc.progress * 100 / 0.9f;
+            porcentaje = loadAsyinc.progress * 100f;
+            Debug.Log(porcentaje);
             texto.text = "Cargando.. " + porcentaje.ToString("00") + "%";
             yield return null;
         }
@@ -35,6 +37,6 @@ public class cargarEscena : MonoBehaviour
 
     private void Update()
     {
-        slider.value = Mathf.MoveTowards(slider.value, porcentaje, 10 * Time.deltaTime);
+        slider.value = Mathf.MoveTowards(slider.value, porcentaje, 100);
     }
 }

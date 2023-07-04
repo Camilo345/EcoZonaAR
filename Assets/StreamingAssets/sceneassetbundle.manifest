@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2588445399
+CRC: 454320228
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4a7650b2917b94cb9c35864fbd5e93ee
+    Hash: 77e8a8a488e133dd25a30204f5da4f1d
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 496e96d34aa11a686ddebb6dee00f0ec
+    Hash: 26cfd332f3e0040362835bd9ec7ac8ec
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -29,16 +29,18 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 81
   Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
 - Class: 104
   Script: {instanceID: 0}
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
 - Class: 114
@@ -67,4 +69,4 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/GooglePlayPlugins/com.google.play.assetdelivery/Samples/TextureTargetingDemo/Scenes/TexturedScene.unity
 Dependencies:
-- D:/Users/Acer/Documents/Proyectos/ecopetrol/EcoZonaAR/Assets/StreamingAssets/textureassetbundle
+- D:/Kaleido Lab/Proyectos/Ecopetrol/EcoZona/EcoZonaAR/Assets/StreamingAssets/textureassetbundle

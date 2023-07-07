@@ -48,8 +48,8 @@ public class enviarEmail : MonoBehaviour
           MailMessage mail = new MailMessage();
           SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
           mail.From = new MailAddress("juancamilobola354@gmail.com");
-          mail.To.Add("jcamilob3456@gmail.com");
-          mail.To.Add("juanc.kaleidolab@gmail.com");
+          //mail.To.Add("jcamilob3456@gmail.com");
+          mail.To.Add("ZonaEco_Orinoquia@ecopetrol.com.co");
           mail.Subject = "Fotos ZonaEco";
           mail.Body = "Foto ZonaEco";
 

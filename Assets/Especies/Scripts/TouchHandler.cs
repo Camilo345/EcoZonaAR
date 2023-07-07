@@ -20,7 +20,7 @@ public class TouchHandler : MonoBehaviour
     const float SCALE_RANGE_MAX = 2.0f;
 
     Touch[] mTouches;
-    bool mEnableRotation;
+    public bool mEnableRotation;
     bool mIsFirstFrameWithTwoTouches;
     float mCachedTouchAngle;
     float mCachedTouchDistance;

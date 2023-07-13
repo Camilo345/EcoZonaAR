@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 71
+  controlID: 155
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -72,7 +72,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 72
+  controlID: 156
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 73
+  controlID: 157
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 74
+  controlID: 158
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -612,22 +612,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Especies/animaciones
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 45
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Especies/animaciones
   m_LastFoldersGridSize: 45
   m_LastProjectPath: D:\Users\Acer\Documents\Proyectos\ecopetrol\EcoZonaAR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 237.40002}
-    m_SelectedIDs: bea50000
-    m_LastClickedID: 42430
-    m_ExpandedIDs: 000000002ea5000030a5000032a5000034a5000036a5000038a500003aa500003ca500003ea5000040a5000042a5000044a5000046a5000048a500004aa500004ca500004ea5000050a5000052a5000054a5000056a5000058a500005aa500005ca500005ea5000060a5000062a5000064a5000066a5000068a500006aa500006ca500006ea5000070a5000072a5000074a5000076a5000078a500007aa500007ca500007ea5000080a5000082a5000084a5000086a5000088a500008aa500008ca500008ea5000090a5000092a5000094a5000096a5000098a500009aa500009ca500009ea50000a0a50000a2a50000a4a50000aea5000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 159}
+    m_SelectedIDs: 82b90400
+    m_LastClickedID: 309634
+    m_ExpandedIDs: 000000007e8c0400808c0400828c0400848c0400868c0400888c04008a8c04008c8c04008e8c0400908c0400928c0400948c0400968c0400988c04009a8c04009c8c04009e8c0400a08c0400a28c0400a48c0400a68c0400a88c0400aa8c0400ac8c0400ae8c0400b08c0400b28c0400b48c0400b68c0400b88c0400ba8c0400bc8c0400be8c0400c08c0400c28c0400c48c0400c68c0400c88c0400ca8c0400cc8c0400ce8c0400d08c0400d28c0400d48c0400d68c0400d88c0400da8c0400dc8c0400de8c0400e08c0400e28c0400e48c0400e68c0400e88c0400ea8c0400ec8c0400ee8c0400f08c0400f28c0400f48c0400588d040000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -655,7 +655,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002ea5000030a5000032a5000034a5000036a5000038a500003aa500003ca500003ea5000040a5000042a5000044a5000046a5000048a500004aa500004ca500004ea5000050a5000052a5000054a5000056a5000058a500005aa500005ca500005ea5000060a5000062a5000064a5000066a5000068a500006aa500006ca500006ea5000070a5000072a5000074a5000076a5000078a500007aa500007ca500007ea5000080a5000082a5000084a5000086a5000088a500008aa500008ca500008ea5000090a5000092a5000094a5000096a5000098a500009aa500009ca500009ea50000a0a50000a2a50000a4a50000
+    m_ExpandedIDs: 000000007e8c0400808c0400828c0400848c0400868c0400888c04008a8c04008c8c04008e8c0400908c0400928c0400948c0400968c0400988c04009a8c04009c8c04009e8c0400a08c0400a28c0400a48c0400a68c0400a88c0400aa8c0400ac8c0400ae8c0400b08c0400b28c0400b48c0400b68c0400b88c0400ba8c0400bc8c0400be8c0400c08c0400c28c0400c48c0400c68c0400c88c0400ca8c0400cc8c0400ce8c0400d08c0400d28c0400d48c0400d68c0400d88c0400da8c0400dc8c0400de8c0400e08c0400e28c0400e48c0400e68c0400e88c0400ea8c0400ec8c0400ee8c0400f08c0400f28c0400f48c0400
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -785,9 +785,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: aa57ffff
-      m_LastClickedID: -43094
-      m_ExpandedIDs: 7075ffff909fffff72cdffff00fbffff3877000092770000c4770000cc770000367800006e780000be7800000cb6000006b70000a2bc0000c6bd000002be00001cbe0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: a2c8fdff00fbffff4e8e0400d48f0400
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1020,7 +1020,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -1088,11 +1088,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.02974045, y: -0.13007137, z: 0.0039033128, w: 0.99105084}
     speed: 2
-    m_Value: {x: 0.029746274, y: -0.12858465, z: 0.0038586978, w: 0.99124485}
+    m_Value: {x: -0.02974045, y: 0.13007137, z: -0.0039033128, w: -0.9910509}
   m_Size:
     m_Target: 0.29885826
     speed: 2
-    m_Value: 0.28598875
+    m_Value: 0.29885826
   m_Ortho:
     m_Target: 0
     speed: 2

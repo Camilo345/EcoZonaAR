@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 49
+  controlID: 26
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -72,7 +72,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 50
+  controlID: 27
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 59
+  controlID: 28
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 139
+  controlID: 29
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -612,22 +612,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 45
   m_LastFolders:
-  - Assets/Resources
+  - Assets/Scenes
   m_LastFoldersGridSize: 45
   m_LastProjectPath: D:\Users\Acer\Documents\Proyectos\ecopetrol\EcoZonaAR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 313.40002}
-    m_SelectedIDs: 04900400
-    m_LastClickedID: 299012
-    m_ExpandedIDs: 00000000588f04005a8f04005c8f04005e8f0400608f0400628f0400648f0400668f0400688f04006a8f04006c8f04006e8f0400708f0400728f0400748f0400768f0400788f04007a8f04007c8f04007e8f0400808f0400828f0400848f0400868f0400888f04008a8f04008c8f04008e8f0400908f0400928f0400948f0400968f0400988f04009a8f04009c8f04009e8f0400a08f0400a28f0400a48f0400a68f0400a88f0400aa8f0400ac8f0400ae8f0400b08f0400b28f0400b48f0400b68f0400b88f0400ba8f0400bc8f0400be8f0400c08f0400c28f0400c48f0400c68f0400c88f0400ca8f0400cc8f0400ce8f0400d08f040000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 139}
+    m_SelectedIDs: 388d0400
+    m_LastClickedID: 298296
+    m_ExpandedIDs: 000000007e8c0400808c0400828c0400848c0400868c0400888c04008a8c04008c8c04008e8c0400908c0400928c0400948c0400968c0400988c04009a8c04009c8c04009e8c0400a08c0400a28c0400a48c0400a68c0400a88c0400aa8c0400ac8c0400ae8c0400b08c0400b28c0400b48c0400b68c0400b88c0400ba8c0400bc8c0400be8c0400c08c0400c28c0400c48c0400c68c0400c88c0400ca8c0400cc8c0400ce8c0400d08c0400d28c0400d48c0400d68c0400d88c0400da8c0400dc8c0400de8c0400e08c0400e28c0400e48c0400e68c0400e88c0400ea8c0400ec8c0400ee8c0400f08c0400f28c0400f48c040000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -655,7 +655,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000588f04005a8f04005c8f04005e8f0400608f0400628f0400648f0400668f0400688f04006a8f04006c8f04006e8f0400708f0400728f0400748f0400768f0400788f04007a8f04007c8f04007e8f0400808f0400828f0400848f0400868f0400888f04008a8f04008c8f04008e8f0400908f0400928f0400948f0400968f0400988f04009a8f04009c8f04009e8f0400a08f0400a28f0400a48f0400a68f0400a88f0400aa8f0400ac8f0400ae8f0400b08f0400b28f0400b48f0400b68f0400b88f0400ba8f0400bc8f0400be8f0400c08f0400c28f0400c48f0400c68f0400c88f0400ca8f0400cc8f0400ce8f0400d08f0400
+    m_ExpandedIDs: 000000007e8c0400808c0400828c0400848c0400868c0400888c04008a8c04008c8c04008e8c0400908c0400928c0400948c0400968c0400988c04009a8c04009c8c04009e8c0400a08c0400a28c0400a48c0400a68c0400a88c0400aa8c0400ac8c0400ae8c0400b08c0400b28c0400b48c0400b68c0400b88c0400ba8c0400bc8c0400be8c0400c08c0400c28c0400c48c0400c68c0400c88c0400ca8c0400cc8c0400ce8c0400d08c0400d28c0400d48c0400d68c0400d88c0400da8c0400dc8c0400de8c0400e08c0400e28c0400e48c0400e68c0400e88c0400ea8c0400ec8c0400ee8c0400f08c0400f28c0400f48c0400f68c0400
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -787,7 +787,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 00fbffff527900006e7b0000487c0000
+      m_ExpandedIDs: 4c75fdff569dfdff709dfdff54c8fdff00fbffff748f0400
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1037,9 +1037,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.006972879, y: 0.16585514, z: -0.3828212}
+    m_Target: {x: -4.99, y: 0, z: 0}
     speed: 2
-    m_Value: {x: -0.006972879, y: 0.16585514, z: -0.3828212}
+    m_Value: {x: -4.989957, y: 0.0000014235461, z: -0.0000032857806}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1088,11 +1088,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.2619065, y: 0.1824901, z: -0.05050565, w: 0.9463366}
     speed: 2
-    m_Value: {x: 0.26190633, y: 0.18248996, z: -0.050505612, w: 0.946336}
+    m_Value: {x: -0.2619065, y: -0.18249008, z: 0.050505646, w: -0.94633657}
   m_Size:
-    m_Target: 0.31485924
+    m_Target: 0.38697678
     speed: 2
-    m_Value: 0.31485924
+    m_Value: 0.37031272
   m_Ortho:
     m_Target: 0
     speed: 2

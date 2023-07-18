@@ -6,7 +6,7 @@ countries.
 ==============================================================================*/
 
 using UnityEngine;
-
+using TMPro;
 public class TouchHandler : MonoBehaviour
 {
     public Transform AugmentationObject;
@@ -26,6 +26,7 @@ public class TouchHandler : MonoBehaviour
     float mCachedTouchDistance;
     float mCachedAugmentationScale;
     Vector3 mCachedAugmentationRotation;
+    Vector3 posTocuh = Vector3.zero;
 
     /// <summary>
     /// Enables rotation input.
@@ -53,49 +54,39 @@ public class TouchHandler : MonoBehaviour
 
     void Update()
     {
-        if (Input.touchCount == 2)
+        if (Input.touchCount <2)
         {
-            GetTouchAngleAndDistance(Input.GetTouch(0), Input.GetTouch(1),
-                out var currentTouchAngle, out var currentTouchDistance);
-
-            if (mIsFirstFrameWithTwoTouches)
-            {
-                mCachedTouchDistance = currentTouchDistance;
-                mCachedTouchAngle = currentTouchAngle;
-                mIsFirstFrameWithTwoTouches = false;
-            }
-
-            var angleDelta = currentTouchAngle - mCachedTouchAngle;
-            var scaleMultiplier = currentTouchDistance / mCachedTouchDistance;
-            var scaleAmount = mCachedAugmentationScale * scaleMultiplier;
-            var scaleAmountClamped = Mathf.Clamp(scaleAmount, SCALE_RANGE_MIN, SCALE_RANGE_MAX);
-
-            if (mEnableRotation)
-                AugmentationObject.localEulerAngles = mCachedAugmentationRotation - new Vector3(0, angleDelta * 3f, 0);
             
-            // Optional Pinch Scaling can be enabled via Inspector for this Script Component
-            if (mEnableRotation && EnablePinchScaling)
-                AugmentationObject.localScale = new Vector3(scaleAmountClamped, scaleAmountClamped, scaleAmountClamped);
+            Touch touch = Input.GetTouch(0);
+            Vector3 dir = Vector3.zero;
+            
+            if (touch.phase == TouchPhase.Began)
+            {
+                posTocuh = touch.position;
+               
+            }
+            if (touch.phase == TouchPhase.Moved)
+            {
+                
+
+                if (touch.position.x < posTocuh.x)
+                {
+                    dir.y = -1;
+                }
+                else
+                {
+                    dir.y = 1;
+                }
+                AugmentationObject.localEulerAngles += mCachedAugmentationRotation - new Vector3(0, dir.y * 80f * Time.deltaTime, 0);
+            }
         }
-        else if (Input.touchCount < 2)
-        {
-            mCachedAugmentationScale = AugmentationObject.localScale.x;
-            mCachedAugmentationRotation = AugmentationObject.localEulerAngles;
-            mIsFirstFrameWithTwoTouches = true;
-        }
-        // enable runtime testing of pinch scaling
-        else if (Input.touchCount == 6)
-            EnablePinchScaling = true;
-        // disable runtime testing of pinch scaling
-        else if (Input.touchCount == 5)
-            EnablePinchScaling = false;
     }
 
-    void GetTouchAngleAndDistance(Touch firstTouch, Touch secondTouch, out float touchAngle, out float touchDistance)
+    void GetTouchAngleAndDistance(Touch firstTouch, Vector3 secondTouch, out float touchAngle, out float touchDistance)
     {
-        touchDistance = Vector2.Distance(firstTouch.position, secondTouch.position);
-        var diffY = firstTouch.position.y - secondTouch.position.y;
-        var diffX = firstTouch.position.x - secondTouch.position.x;
+        touchDistance = Vector2.Distance(firstTouch.position, secondTouch);
+        var diffY = firstTouch.position.y - secondTouch.y;
+        var diffX = firstTouch.position.x - secondTouch.x;
         touchAngle = Mathf.Atan2(diffY, diffX) * Mathf.Rad2Deg;
     }
 

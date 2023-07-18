@@ -6,7 +6,7 @@ countries.
 ==============================================================================*/
 
 using UnityEngine;
-
+using TMPro;
 public class TouchHandler : MonoBehaviour
 {
     public Transform AugmentationObject;
@@ -26,7 +26,8 @@ public class TouchHandler : MonoBehaviour
     float mCachedTouchDistance;
     float mCachedAugmentationScale;
     Vector3 mCachedAugmentationRotation;
-    Vector3 posTocuh;
+    Vector3 posTocuh = Vector3.zero;
+
     /// <summary>
     /// Enables rotation input.
     /// It is registered to ContentPositioningBehaviour.OnContentPlaced.
@@ -53,33 +54,31 @@ public class TouchHandler : MonoBehaviour
 
     void Update()
     {
-   
-        if (Input.touchCount == 1)
+        if (Input.touchCount <2)
         {
-            if (Input.GetTouch(0).phase == TouchPhase.Began)
-            {
-                posTocuh = Input.GetTouch(0).position;
-            }
-
+            
+            Touch touch = Input.GetTouch(0);
             Vector3 dir = Vector3.zero;
-            //  var angleDelta = currentTouchAngle - mCachedTouchAngle;
-            if (Input.GetTouch(0).position.x < posTocuh.x)
+            
+            if (touch.phase == TouchPhase.Began)
             {
-                dir.y = -1;
+                posTocuh = touch.position;
+               
             }
-            else
+            if (touch.phase == TouchPhase.Moved)
             {
-                dir.y = 1;
+                
+
+                if (touch.position.x < posTocuh.x)
+                {
+                    dir.y = -1;
+                }
+                else
+                {
+                    dir.y = 1;
+                }
+                AugmentationObject.localEulerAngles += mCachedAugmentationRotation - new Vector3(0, dir.y * 80f * Time.deltaTime, 0);
             }
-            if (mEnableRotation)
-            {
-                AugmentationObject.Rotate(15 * dir * Time.deltaTime, Space.Self);
-                //   AugmentationObject.localEulerAngles += mCachedAugmentationRotation - new Vector3(0,dir * 3f*Time.deltaTime, 0);
-            }
-
-
-            // Optional Pinch Scaling can be enabled via Inspector for this Script Component
-
         }
     }
 

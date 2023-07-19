@@ -2,7 +2,10 @@ fileFormatVersion: 2
 guid: 0104aef80b52ead42ac06107b258f156
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: -3292511307453055637
+    second: Sidewalk_04|Sidewalk_04Action
   externalObjects: {}
   materials:
     materialImportMode: 2

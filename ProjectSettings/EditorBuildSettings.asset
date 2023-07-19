@@ -12,12 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Especies_Image.unity
     guid: 70d884e588d382042853591f30d97514
   - enabled: 1
-    path: Assets/Scenes/Maqueta.unity
+    path: Assets/Scenes/ImageTracking.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/MuralAR.unity
-    guid: 5558b33abbf8a9240933efa68a247b19
+    guid: 59e3062eb3c8f844bab6d787536c9fef
   - enabled: 1
-    path: Assets/Scenes/02_AR_EspeciesPlanos.unity
+    path: Assets/Scenes/02_AR_Scene.unity
     guid: 311cb90927712aa4f8170e2f81fcfe40
+  - enabled: 1
+    path: Assets/Scenes/menuCarga.unity
+    guid: 762b9417dfffb5b46b9716d8721dd76d
   m_configObjects: {}

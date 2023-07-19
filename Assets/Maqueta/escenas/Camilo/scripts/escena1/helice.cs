@@ -5,6 +5,7 @@ using UnityEngine;
 public class helice : MonoBehaviour
 {
     public float velocidad;
+    public Vector3 dir;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +15,6 @@ public class helice : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(velocidad * Vector3.up * Time.deltaTime, Space.World);
+        transform.Rotate(velocidad * dir * Time.deltaTime, Space.World);
     }
 }

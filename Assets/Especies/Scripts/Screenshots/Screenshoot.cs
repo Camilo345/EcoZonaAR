@@ -5,10 +5,13 @@ using System.IO;
 using UnityEngine.UI;
 public class Screenshoot : MonoBehaviour
 {
-    public RawImage PhotoImage;
+    public Image PhotoImage;
+    public RawImage PhotoRawImage;
+    public Image mascara;
     public GameObject panel;
     public List<GameObject> UI;
     public GameObject marco;
+    public enviarEmail email;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,18 +42,31 @@ public class Screenshoot : MonoBehaviour
         marco.SetActive(false);
         RenderTexture rt = new RenderTexture(texture.width / 2, texture.height / 2, 0);
         RenderTexture.active = rt;
-        Graphics.Blit(texture, rt);
+        //texture = CalculateTexture(rt.height, rt.width, rt.height / 2, rt.height / 2, rt.width / 2, texture);
 
+        Graphics.Blit(texture, rt);
+        //mascara.rectTransform.sizeDelta = new Vector2(rt.width * 1.25f, rt.height * 1.25f);
         // PhotoImage.uvRect = new Rect(0,152, rt.width, rt.height);
-        PhotoImage.rectTransform.sizeDelta = new Vector2(rt.width*1.25f, rt.height*1.25f);
-        PhotoImage.texture = rt;
+        PhotoImage.rectTransform.sizeDelta = new Vector2(rt.width*1.5f, rt.height*1.5f);
+        PhotoRawImage.rectTransform.sizeDelta = new Vector2(rt.width * 1.25f, rt.height * 1.25f);
+        Sprite sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(texture.width / 2, texture.height / 2));
+        PhotoImage.GetComponent<Image>().overrideSprite = sprite;
+        PhotoRawImage.texture = rt;
+
+    
         panel.SetActive(true);
        
         string name = "ScreenShoot_AR" + System.DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss")+".png";
         // string filePath = Path.Combine(GetAndroidExternalStoragePath(), name);
         //  File.WriteAllBytes(filePath, texture.EncodeToPNG());
+
+        string filePath = Path.Combine(Application.temporaryCachePath, name+".png");
+        File.WriteAllBytes(filePath, texture.EncodeToPNG());
+
+
+        email.enviarCorreo(filePath);
         NativeGallery.SaveImageToGallery(texture, "Fotos Animales Ecopetrol", name);
-        Destroy(texture);
+      //  Destroy(texture);
     }
 
     private Texture2D tomarCaptura()
@@ -68,25 +84,6 @@ public class Screenshoot : MonoBehaviour
             UI[i].SetActive(state);
         }
     }
-    private string GetAndroidExternalStoragePath()
-    {
-        var path="";
-        if (Application.platform == RuntimePlatform.Android)
-        {
-            var jc = new AndroidJavaClass("android.os.Environment");
-            path = jc.CallStatic<AndroidJavaObject>("getExternalStoragePublicDirectory",
-                jc.GetStatic<string>("DIRECTORY_DCIM"))
-                .Call<string>("getAbsolutePath");
-        }
-        else
-        {
-           path= Application.dataPath + "/Resources/save_screen/" + name + ".jpg";
-        }
-           
-
-       
-        return path;
-    }
 
     public void compartirRedes()
     {
@@ -96,7 +93,8 @@ public class Screenshoot : MonoBehaviour
     private IEnumerator TakeScreenshotAndShare()
     {
         yield return new WaitForEndOfFrame();
-        Texture2D texture =TextureToTexture2D(PhotoImage.texture);
+          Texture2D texture =TextureToTexture2D(PhotoRawImage.texture);
+        //Texture2D texture = textureFromSprite(PhotoImage.sprite);
 
         string filePath = Path.Combine(Application.temporaryCachePath, "shared img.png");
         File.WriteAllBytes(filePath, texture.EncodeToPNG());
@@ -125,6 +123,23 @@ public class Screenshoot : MonoBehaviour
         RenderTexture.active = currentRT;
         RenderTexture.ReleaseTemporary(renderTexture);
         return texture2D;
+    }
+
+    public static Texture2D textureFromSprite(Sprite sprite)
+    {
+        if (sprite.rect.width != sprite.texture.width)
+        {
+            Texture2D newText = new Texture2D((int)sprite.rect.width, (int)sprite.rect.height);
+            Color[] newColors = sprite.texture.GetPixels((int)sprite.textureRect.x,
+                                                         (int)sprite.textureRect.y,
+                                                         (int)sprite.textureRect.width,
+                                                         (int)sprite.textureRect.height);
+            newText.SetPixels(newColors);
+            newText.Apply();
+            return newText;
+        }
+        else
+            return sprite.texture;
     }
     public void closePanel()
     {

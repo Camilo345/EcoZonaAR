@@ -77,7 +77,7 @@ public class TouchHandler : MonoBehaviour
                 {
                     dir.y = 1;
                 }
-                AugmentationObject.localEulerAngles += mCachedAugmentationRotation - new Vector3(0, dir.y * 80f * Time.deltaTime, 0);
+                AugmentationObject.localEulerAngles += mCachedAugmentationRotation - new Vector3(0, dir.y * 120f * Time.deltaTime, 0);
             }
         }
     }

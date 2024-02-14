@@ -237,7 +237,7 @@ Material:
     - _BigCascadeTranslucencyMultiply: 1
     - _BigCascadeTransparency: 0.002
     - _BigCascadeWaterNormalScale: 0.9
-    - _BigCascadeWaterTessScale: 0.2
+    - _BigCascadeWaterTessScale: 9.72
     - _Blend: 0
     - _BlendMode: 0
     - _CascadeFalloff: 0.84
@@ -255,7 +255,7 @@ Material:
     - _CascadesNoisePower: 2.71
     - _CastShadows: 0
     - _ChromaticAberration: 0.1
-    - _CleanFalloffMultiply: 1.14
+    - _CleanFalloffMultiply: -14.48
     - _CleanFalloffPower: 0.2
     - _ClearWaterFalloff: 10
     - _Cull: 0
@@ -272,7 +272,7 @@ Material:
     - _DoubleSidedEnable: 1
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 10
-    - _EdgeFalloffMultiply: 5.19
+    - _EdgeFalloffMultiply: 24.09
     - _EdgeFalloffPower: 1.46
     - _EdgeLength: 25
     - _FarDistortion: 1

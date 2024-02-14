@@ -450,7 +450,7 @@ Material:
     - _NoiseSpeed: {r: 0.7, g: 0.7, b: 0, a: 0}
     - _NoiseTiling: {r: 2, g: 2, b: 0, a: 0}
     - _NoiseTling: {r: 4, g: 4, b: 0, a: 0}
-    - _ShalowColor: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 0}
+    - _ShalowColor: {r: 0, g: 0.41453844, b: 0.6415094, a: 0}
     - _SlowCascadeColor: {r: 20, g: 20, b: 20, a: 0}
     - _SlowWaterMixSpeed: {r: 0.001, g: 0.001, b: 0, a: 0}
     - _SlowWaterSpeed: {r: 0, g: 0.2, b: 0, a: 0}

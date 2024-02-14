@@ -4,14 +4,20 @@ using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using TMPro;
 
 public class ARChangeElementsController : MonoBehaviour
 {
-    
+
     public List<GameObject> elements;
+    [TextArea(1, 20)]
+    public List<string> nombreElements;
+    [TextArea(1,20)]
     public List<string> infoElements;
     public List<float> scaleFactor;
-    public Text textInfo;
+
+    public TMP_Text textNombre;
+    public TMP_Text textInfo;
     public UnityEvent OnChangeElement;
 
     public int Counter = 0;
@@ -23,9 +29,15 @@ public class ARChangeElementsController : MonoBehaviour
             element.SetActive(false);
         }
         int animal = PlayerPrefs.GetInt("animal");
+        textNombre.text = nombreElements[animal];
         textInfo.text = infoElements[animal];
         elements[animal].SetActive(true);
 
+    }
+
+    private void Update()
+    {
+      
     }
 
     public void ActiveNextElement()

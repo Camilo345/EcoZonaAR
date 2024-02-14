@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Maqueta/AR_Agua/Modelos/Clip4/Materials.meta
 guid: 1d395ad7c678d6442bfaeb86edbf3373
 folderAsset: yes
+========
+guid: 59e3062eb3c8f844bab6d787536c9fef
+>>>>>>>> origin/dev_opc:Assets/Scenes/MuralAR.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

@@ -16,8 +16,18 @@ EditorBuildSettings:
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/MuralAR.unity
+<<<<<<< HEAD
     guid: 5558b33abbf8a9240933efa68a247b19
+=======
+    guid: 59e3062eb3c8f844bab6d787536c9fef
+>>>>>>> origin/dev_opc
   - enabled: 1
     path: Assets/Scenes/02_AR_EspeciesPlanos.unity
     guid: 311cb90927712aa4f8170e2f81fcfe40
+  - enabled: 1
+    path: Assets/Scenes/menuCarga.unity
+    guid: 762b9417dfffb5b46b9716d8721dd76d
+  - enabled: 1
+    path: Assets/Scenes/OPC_AR.unity
+    guid: 1fe2ba3eb53c72747ac240010666d0c5
   m_configObjects: {}
